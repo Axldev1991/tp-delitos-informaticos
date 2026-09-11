@@ -56,7 +56,7 @@
   - Taxonomía general de los delitos informáticos.
 
 ### Módulo 3: Marco Legal Argentino (Contexto)
-- **Responsable:** *A asignar*
+- **Responsable:** BUENAVENTURA, Martina Pilar (`martinabuenaventura2024@gmail.com`)
 - **Contenidos:**
   - Evolución histórica del tratamiento penal de la informática en Argentina.
   - Integración en el Código Penal Argentino.

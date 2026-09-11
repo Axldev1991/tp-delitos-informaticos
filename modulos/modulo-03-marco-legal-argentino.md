@@ -1,6 +1,6 @@
 # Módulo 3: Marco Legal en Argentina (Contexto)
 
-**Responsable:** *A asignar*  
+**Responsable:** BUENAVENTURA, Martina Pilar (`martinabuenaventura2024@gmail.com`)  
 **Estado:** En desarrollo  
 
 ---

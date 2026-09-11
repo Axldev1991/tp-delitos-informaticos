@@ -49,7 +49,7 @@
   - Bien jurídico protegido.
 
 ### Módulo 2: Clasificación y Tipos
-- **Responsable:** *A asignar*
+- **Responsable:** ALVAREZ TAIBO, Gabriel Angel (`alvareztaibo@gmail.com`)
 - **Contenidos:**
   - Criterios de clasificación doctrinales y legales.
   - El sistema informático como objeto (fin) vs. como medio de comisión.

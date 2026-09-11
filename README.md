@@ -63,7 +63,7 @@
   - Convenio de Budapest y estándares internacionales.
 
 ### Módulo 4: Ley 26.388 (Análisis Normativo)
-- **Responsable:** *A asignar*
+- **Responsable:** ARES MUNIZ, Thiago (`aresthiago911@gmail.com`)
 - **Contenidos:**
   - Objeto y alcance de la Ley 26.388.
   - Modificaciones específicas al Código Penal.

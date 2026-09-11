@@ -77,7 +77,7 @@
   - Protección de niños, niñas y adolescentes (NNyA).
 
 ### Módulo 6: Delitos en Particular II — Phishing y Estafas Digitales
-- **Responsable:** *A asignar*
+- **Responsable:** CASTELLANO GUTIERREZ, Axel (`castellanoaxl@gmail.com`)
 - **Contenidos:**
   - Ingeniería social y modalidades de fraude.
   - Defraudación mediante uso de tarjeta o datos informáticos (Art. 173 inc. 16).
@@ -97,7 +97,7 @@
   - Resumen de hechos, doctrina sentada por el tribunal y relevancia legal.
 
 ### Módulo 9: Evidencia Digital, Desafíos y Conclusiones
-- **Responsable:** *A asignar*
+- **Responsable:** ALBA, Valentín Sebastián (`valentinalba0809@gmail.com`)
 - **Contenidos:**
   - Obtención y preservación de prueba digital.
   - Cadena de custodia y validez probatoria en juicio.

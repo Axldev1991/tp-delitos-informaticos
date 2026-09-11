@@ -91,7 +91,7 @@
   - Malware, ransomware y ataques de denegación de servicio (DDoS).
 
 ### Módulo 8: Casos Jurisprudenciales
-- **Responsable:** *A asignar*
+- **Responsable:** BUDANI, Iara Nerea (`iarubudani@gmail.com`)
 - **Contenidos:**
   - Selección de 3 a 4 fallos relevantes de la justicia argentina.
   - Resumen de hechos, doctrina sentada por el tribunal y relevancia legal.

@@ -1,6 +1,6 @@
 # Módulo 8: Casos Jurisprudenciales en Argentina
 
-**Responsable:** *A asignar*  
+**Responsable:** BUDANI, Iara Nerea (`iarubudani@gmail.com`)  
 **Estado:** En desarrollo  
 
 ---

@@ -70,7 +70,7 @@
   - Nuevas figuras típicas incorporadas.
 
 ### Módulo 5: Delitos en Particular I — Grooming y Ciberacoso
-- **Responsable:** *A asignar*
+- **Responsable:** ALLENDE, Evelyn Astrid (`evelynastridallende@gmail.com`)
 - **Contenidos:**
   - Análisis de la Ley 26.904 (Art. 131 del Código Penal).
   - Ciberacoso y hostigamiento digital.

@@ -42,7 +42,7 @@
 ## Desglose de Módulos de Investigación
 
 ### Módulo 1: Concepto y Partes
-- **Responsable:** *A asignar*
+- **Responsable:** ARREDONDO, Agustín Fernando (`agustinarredondo4@gmail.com`)
 - **Contenidos:**
   - Definición formal de delito informático.
   - Sujeto activo y sujeto pasivo.

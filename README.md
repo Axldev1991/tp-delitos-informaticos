@@ -84,7 +84,7 @@
   - Suplantación de identidad.
 
 ### Módulo 7: Delitos en Particular III — Sabotaje, Malware y Acceso Ilegítimo
-- **Responsable:** *A asignar*
+- **Responsable:** BLANCO, Agustín Tobías (`agustinblanco2006@gmail.com`)
 - **Contenidos:**
   - Acceso ilegítimo / Hacking (Art. 153 bis).
   - Daño informático y sabotaje (Art. 183).

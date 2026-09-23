@@ -1,63 +1,90 @@
 # Módulo 5: Delitos en Particular I — Grooming y Ciberacoso
 
 **Responsable:** ALLENDE, Evelyn Astrid (`evelynastridallende@gmail.com`)  
-**Estado:** En desarrollo  
+**Estado:** Completo / En revisión  
+
+---
+
+## Índice de Contenidos
+1. [Grooming (Ley 26.904)](#1-grooming-ley-26904)
+   - [1.1. Encuadre Penal: Art. 131 del Código Penal](#11-encuadre-penal-art-131-del-código-penal)
+   - [1.2. Elementos del Tipo Penal y Modalidades Operativas](#12-elementos-del-tipo-penal-y-modalidades-operativas)
+   - [1.3. Bien Jurídico Protegido y Protección Integral](#13-bien-jurídico-protegido-y-protección-integral)
+2. [Ciberacoso y Hostigamiento Digital](#2-ciberacoso-y-hostigamiento-digital)
+   - [2.1. Ciberbullying entre Menores](#21-ciberbullying-entre-menores)
+   - [2.2. Ciberacoso entre Adultos y Otras Figuras Penales](#22-ciberacoso-entre-adultos-y-otras-figuras-penales)
+3. [Prevención y Protocolos de Actuación](#3-prevención-y-protocolos-de-actuación)
+   - [3.1. Ley 27.590 (Ley Mica Ortega) y Marco Institucional](#31-ley-27590-ley-mica-ortega-y-marco-institucional)
+   - [3.2. Preservación de Evidencia y Canales de Denuncia](#32-preservación-de-evidencia-y-canales-de-denuncia)
+4. [Fuentes y Referencias Consultadas](#4-fuentes-y-referencias-consultadas)
 
 ---
 
 ## 1. Grooming (Ley 26.904)
 
-- “Incorpórase como artículo 131 del Código Penal el siguiente:
+### 1.1. Encuadre Penal: Art. 131 del Código Penal
+Sancionada en 2013, la **Ley 26.904** incorporó el **artículo 131 al Código Penal Argentina**, tipificando formalmente el delito de grooming o ciberacoso sexual contra menores de edad:
 
-‘Artículo 131: Será penado con prisión de seis (6) meses a cuatro (4) años el que, por medio de comunicaciones electrónicas, telecomunicaciones o cualquier otra tecnología de transmisión de datos, contactare a una persona menor de edad, con el propósito de cometer cualquier delito contra la integridad sexual de la misma.’ “
+> *"Será penado con prisión de seis (6) meses a cuatro (4) años el que, por medio de comunicaciones electrónicas, telecomunicaciones o cualquier otra tecnología de transmisión de datos, contactare a una persona menor de edad, con el propósito de cometer cualquier delito contra la integridad sexual de la misma."*
 
-Sancionada en 2013, la Ley incorporó el artículo 131 al Código Penal y tipifica delitos como el grooming o el ciberacoso sexual contra menores de edad.
+### 1.2. Elementos del Tipo Penal y Modalidades Operativas
+Para la configuración del tipo penal del artículo 131, deben concurrir los siguientes elementos esenciales:
+1.  **Sujeto Activo:** Persona física (generalmente un adulto) que lleva a cabo la conducta delictiva.
+2.  **Sujeto Pasivo:** La persona contactada debe ser indefectiblemente menor de 18 años.
+3.  **Conducta Típica:** Contactar al menor a través de cualquier medio tecnológico o digital de transmisión de datos (redes sociales, juegos en línea, mensajería instantánea).
+4.  **Elemento Subjetivo / Finalidad:** Exige la presencia de una finalidad o propósito específico de cometer un delito contra la integridad sexual de la víctima.
 
-Para que el delito encaje en el artículo 131, hay ciertos elementos que deben demostrarse:
+> **Importante:** No es necesario que se concrete un posterior abuso sexual u otro delito consumado; la norma sanciona el peligro en el momento en que se establece el contacto con ese propósito sexual específico.
 
-1. Sujeto activo: persona que comete el delito.
-2. Sujeto pasivo: La persona contactada debe ser menor de 18 años.
-3. Conducta: Debe existir el contacto con el menor de edad -contacto a través de medios digitales.
-4. El medio utilizado para el contacto debe ser un medio tecnológico o digital para cumplir con la descripción del artículo.
-5. Finalidad: Debe existir un propósito u objetivo de cometer el delito sexual contra el menor de edad.
+#### Modalidades de Engaño y Manipulación
+El grooming suele desarrollarse mediante manipulación psicológica: el atacante puede asumir una identidad falsa o simular una edad similar a la de la víctima. Posteriormente, intenta trasladar la conversación a canales privados, solicitando datos personales, imágenes o videos de contenido íntimo a través de engaños, chantajes o amenazas.
 
-Cumplidos estos elementos se puede llegar a definir el delito como de grooming o ciberacoso y establecer una pena de 6 meses a 4 años de prisión para quien cometiera el delito.
+### 1.3. Bien Jurídico Protegido y Protección Integral
+El bien jurídico tutelado es la **integridad sexual y el libre desarrollo de niñas, niños y adolescentes (NNyA)**. Esta norma penal se articula de manera complementaria con la **Ley Nacional 26.061 de Protección Integral de los Derechos de NNyA**, que impone al Estado, la familia y la sociedad la obligación de garantizar el interés superior del niño y su protección frente a cualquier forma de vulneración digital.
 
-No es necesario que se concrete un posterior abuso sexual u otros delitos, la norma sanciona el contacto en el momento en que existe un propósito sexual específico en el acto. Por estos motivos, la investigación se centra en determinar la finalidad del contacto con el menor de edad. Por lo tanto, no todo contacto entre una persona adulta y un menor a través de internet o medios digitales constituye automáticamente grooming o ciberacoso.
-
-El grooming puede desarrollarse mediante manipulación: por ejemplo, una persona con identidad falsa o pretendiendo tener una edad similar a la de la victima. También puede intentar llevar la conversación hacia espacios mas privados y solicitar información del menor, imágenes o acciones que le permitan avanzar hacia su objetivo. Se puede intentar un encuentro personal o conseguir material sexual a través de engaños, amenazas o chantajes (Ministerio de Justicia de la Nación, 2026).
-
-El bien jurídico relacionado es la protección de la integridad sexual de niños, niñas y adolescentes frente a conductas que puedan dirigirse a afectar este ámbito y junto a la Ley Nacional 26.061 de protección de niños, niñas y adolescentes (NNyA) se busca garantizar la protección de derechos esenciales, los intereses del niño y la responsabilidad de familia y Estado para asegurar estos derechos.
+---
 
 ## 2. Ciberacoso y Hostigamiento Digital
 
-- El concepto de ciberacoso es más amplio que el de grooming. Se utiliza para describir diferentes formas de acoso, hostigamiento o violencia mediante internet o medios digitales.
+### 2.1. Ciberbullying entre Menores
+El concepto de ciberacoso es más amplio que el de grooming. Incluye formas de acoso, violencia u hostigamiento a través de medios digitales.
+*   **Ciberbullying:** Se define como el maltrato o acoso sistemático que sufre una persona menor de edad por parte de otros menores mediante entornos electrónicos (redes sociales, grupos de mensajería, juegos en línea).
+*   **Diferencia con el Grooming:** A diferencia del grooming, en el ciberbullying no existe una finalidad de explotación sexual ni una asimetría etaria adulto-menor, sino el propósito de humillar, intimidar, aislar o molestar a la víctima entre pares.
 
-Dentro del ciberacoso puede encontrarse el ciberbullying, que es una forma de maltrato u hostigamiento que se realiza dentro de internet a través de mensajes, imágenes, videos, audios o grupos de mensajería.
+### 2.2. Ciberacoso entre Adultos y Otras Figuras Penales
+El hostigamiento o acoso digital entre adultos no constituye la figura penal de grooming. Cuando se producen conductas de persecución o violencia digital en el ámbito laboral o personal entre adultos, la conducta debe encuadrarse en otros tipos penales tradicionales del Código Penal (tales como **amenazas** del Art. 149 bis, **coacciones** o violaciones a la privacidad) o bien dar lugar a responsabilidades contravencionales y civiles.
 
-Segun el Estado argentino: ciberbullying como el maltrato que sufre una persona menor de edad por parte de otros menores mediante medios electrónicos.
-
-A diferencia del grooming, el objetivo final del ciberbullying puede ser humillar, intimidar, excluir, amenazar o molestar a la otra persona. También, el ciberbullying suele producirse entre personas de edades similares.
-
-En cuanto al ciberacoso laboral o personal, este se produce normalmente entre adultos del mismo rango etario. En este caso, aunque las amenazas, intimidaciones o el acoso, si bien son a través de estos mismos medios digitales, no significan que exista un delito especifico como el “ciberacoso”. Determinadas conductas entonces podrán relacionarse con otras figuras penales como amenazas, coacciones u otros delitos en el Código Penal. Puede llegar a haber una responsabilidad civil, administrativa o penal.
+---
 
 ## 3. Prevención y Protocolos de Actuación
 
-- La prevención es fundamental frente a delitos como el grooming o la violencia digital. No es controlar el uso de internet, sino promover la privacidad, la seguridad digital y proporcionar formas de pedir ayuda.
+### 3.1. Ley 27.590 (Ley Mica Ortega) y Marco Institucional
+La **Ley 27.590** (conocida como *Ley Mica Ortega*) creó el **Programa Nacional de Prevención y Concientización del Grooming o Ciberacoso contra Niñas, Niños y Adolescentes**.
 
-La Ley 27590, Ley Mica Ortega, creó el Programa Nacional de Prevención y Concientización del Grooming o Ciberacoso contra Niñas, Niños y Adolescentes: “Sus objetivos son: proteger del grooming a la infancia y la adolescencia, enseñarles a usar internet de manera responsable, capacitar a las personas que trabajan en las escuelas, dar información acerca de este delito en los medios de comunicación y explicar cómo y dónde denunciar los casos.”
+Sus objetivos centrales son:
+*   Concientizar y educar sobre el uso seguro y responsable de las tecnologías de la información.
+*   Capacitar a docentes y equipos escolares para detectar alertas tempranas de ciberacoso.
+*   Difundir los canales de denuncia y asistencia a víctimas y familias.
 
-La prevención también requiere la participación de las familias, instituciones educativas y organismos especializados en estos casos. Se recomienda hablar con los niños y adolescentes sobre el uso de internet, la exposición, la privacidad de sus cuentas y su información personal y explicar los riesgos de compartir material o datos con personas desconocidas.
+### 3.2. Preservación de Evidencia y Canales de Denuncia
+Frente a la sospecha o comisión de un hecho de grooming, es crítico **preservar la evidencia digital**:
+*   No borrar conversaciones, mensajes, capturas de pantalla, correos electrónicos ni nombres de usuario.
+*   Registrar números telefónicos y enlaces de perfiles involucrados.
 
-Ante cualquier sospecha o situación, la principal recomendación es preservar las evidencias, tales como conversaciones, capturas de pantalla, nombres de usuario, números de teléfono, correos y otros datos relevantes para una investigación. No deberían eliminarse mensajes o archivos que puedan ser necesarios para realizar una consulta o denuncia.
+#### Canales Oficiales de Asistencia:
+*   **Línea 137:** Asistencia y orientación nacional ante víctimas de violencia sexual y grooming.
+*   **Línea 102:** Servicio gratuito y confidencial de atención especializada en derechos de NNyA.
+*   **UFECI / Unidades Fiscales Especializadas:** Fiscalía Especializada en Ciberdelincuencia para la radicación de denuncias penales.
 
-Para esto, existen canales de orientación y denuncia: la línea 137 brinda asistencia y orientación ante situaciones de violencia sexual, incluyendo casos de grooming, mientras que la línea 102 ofrece atención especializada en los derechos de niños, niñas y adolescentes. En la Ciudad Autónoma de Buenos Aires, además, existe una unidad fiscal especializada en ciberdelincuencia.
+---
 
 ## 4. Fuentes y Referencias Consultadas
 
-- [Ley 26.904 — Código Penal Argentino](https://www.argentina.gob.ar/normativa/nacional/ley-26904-223586)
-- [Ley 27.590 — Ley Mica Ortega](https://www.argentina.gob.ar/normativa/nacional/345231/texto)
-- - [Ley 26.061 — Ley de Protección Integral de los Derechos de las Niñas, Niños y Adolescentes](https://www.argentina.gob.ar/normativa/nacional/110778/texto)
-- [Guía para padres, familias y docentes: Grooming](https://www.argentina.gob.ar/node/457643)
-- [Consejos y recomendaciones para prevenir el grooming](https://www.argentina.gob.ar/justicia/consejos-y-recomendaciones-para-prevenir-el-grooming)
-- [Estrategias para prevenir el grooming](https://www.argentina.gob.ar/node/417440)
+### Normativa Nacional
+*   **Ley N° 26.904** — Código Penal Argentino (incorporación del Art. 131 - Grooming).
+*   **Ley N° 27.590** — Ley Mica Ortega (Programa Nacional de Prevención del Grooming).
+*   **Ley N° 26.061** — Ley de Protección Integral de los Derechos de las Niñas, Niños y Adolescentes.
+
+### Portales e Informes Institucionales
+*   **Ministerio de Justicia y Derechos Humanos de la Nación** — *Guía para padres, familias y docentes: Grooming.*
+*   **Argentina.gob.ar** — *Consejos y recomendaciones para prevenir el grooming y ciberdelitos.*

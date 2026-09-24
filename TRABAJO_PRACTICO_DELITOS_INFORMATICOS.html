@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Trabajo Práctico: Delitos Informáticos - Grupo 141-A</title>
+<style>
+  @page {
+    size: A4;
+    margin: 2cm 2cm 2cm 2cm;
+  }
+  html, body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #111111;
+    background-color: #ffffff;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+  }
+  .page-break {
+    page-break-after: always;
+    break-after: page;
+    height: 0;
+    display: block;
+    clear: both;
+  }
+  h1 {
+    font-family: Arial, sans-serif !important;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #0f2b48;
+    margin-top: 16pt;
+    margin-bottom: 8pt;
+    border-bottom: 2px solid #0f2b48;
+    padding-bottom: 3pt;
+    page-break-after: avoid;
+  }
+  h2 {
+    font-family: Arial, sans-serif !important;
+    font-size: 13pt;
+    font-weight: bold;
+    color: #1a446c;
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+  }
+  h3 {
+    font-family: Arial, sans-serif !important;
+    font-size: 11.5pt;
+    font-weight: bold;
+    color: #2c5270;
+    margin-top: 10pt;
+    margin-bottom: 4pt;
+    page-break-after: avoid;
+  }
+  h4 {
+    font-family: Arial, sans-serif !important;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 8pt;
+    margin-bottom: 3pt;
+    page-break-after: avoid;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 5pt;
+    text-align: justify;
+  }
+  ul, ol {
+    margin-top: 0;
+    margin-bottom: 5pt;
+    padding-left: 18pt;
+  }
+  li {
+    margin-bottom: 2pt;
+  }
+  strong {
+    font-weight: bold;
+  }
+  em {
+    font-style: italic;
+  }
+  .inline-code {
+    font-family: Arial, sans-serif !important;
+    font-size: 11pt;
+    color: #111111;
+  }
+  a {
+    color: #004080;
+    text-decoration: none;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 10pt 0;
+  }
+  blockquote {
+    border-left: 3px solid #1a446c;
+    margin: 8pt 0;
+    padding-left: 10pt;
+    font-style: italic;
+    color: #333333;
+    background-color: #f8f9fa;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse !important;
+    margin-top: 10pt;
+    margin-bottom: 12pt;
+    font-size: 10pt;
+    page-break-inside: avoid;
+  }
+  th {
+    background-color: #0f2b48 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    border: 1px solid #0f2b48 !important;
+    padding: 6px 10px;
+    text-align: left !important;
+  }
+  td {
+    border: 1px solid #cccccc !important;
+    padding: 6px 10px;
+    text-align: left !important;
+    background-color: #ffffff;
+    line-height: 1.3;
+  }
+  tr:nth-child(even) td {
+    background-color: #f4f7fa !important;
+  }
+</style>
+</head>
+<body>
+<h1>TRABAJO PRÁCTICO DE INVESTIGACIÓN: DELITOS INFORMÁTICOS</h1>
+<p><strong>Cátedra:</strong> Legislación (UTN FRA)</p>
+<p><strong>Profesora:</strong> Analía Buratovich (<span class="inline-code">aburatovich@fra.utn.edu.ar</span>)</p>
+<p><strong>Grupo:</strong> Grupo 141 – A</p>
+<p><strong>Tema:</strong> Delitos Informáticos (Concepto, partes, clasificación, tipos, legislación argentina, Ley 26.388, delitos en particular y jurisprudencia)</p>
+<p><strong>Fecha Límite de Entrega:</strong> 25 de Septiembre de 2026</p>
+<p><strong>Formatos de Entrega:</strong> <span class="inline-code">.docx</span> (Word) y <span class="inline-code">.pdf</span></p>
+<hr>
+<h3>Integrantes del Grupo 141 – A</h3>
+<ul>
+<li><strong>ALBA, Valentín Sebastián</strong> — <span class="inline-code">valentinalba0809@gmail.com</span></li>
+<li><strong>ALLENDE, Evelyn Astrid</strong> — <span class="inline-code">evelynastridallende@gmail.com</span></li>
+<li><strong>ALVAREZ TAIBO, Gabriel Angel</strong> — <span class="inline-code">alvareztaibo@gmail.com</span></li>
+<li><strong>ARES MUNIZ, Thiago</strong> — <span class="inline-code">aresthiago911@gmail.com</span></li>
+<li><strong>ARREDONDO, Agustín Fernando</strong> — <span class="inline-code">agustinarredondo4@gmail.com</span></li>
+<li><strong>BLANCO, Agustín Tobías</strong> — <span class="inline-code">agustinblanco2006@gmail.com</span></li>
+<li><strong>BUDANI, Iara Nerea</strong> — <span class="inline-code">iarubudani@gmail.com</span></li>
+<li><strong>BUENAVENTURA, Martina Pilar</strong> — <span class="inline-code">martinabuenaventura2024@gmail.com</span></li>
+<li><strong>CASTELLANO GUTIERREZ, Axel</strong> — <span class="inline-code">castellanoaxl@gmail.com</span></li>
+</ul>
+<hr>
+<div class="page-break"></div>
+<h2>ÍNDICE GENERAL</h2>
+<p>1. <a href="#introducción-general">Introducción General</a></p>
+<p>2. <a href="#módulo-1-concepto-y-partes-del-delito-informático">Módulo 1: Concepto y Partes del Delito Informático</a></p>
+<ul>
+<li><a href="#11-definición-y-concepto">1.1. Definición y Concepto</a></li>
+<li><a href="#12-sujetos-del-delito">1.2. Sujetos del Delito (Activo y Pasivo)</a></li>
+<li><a href="#13-bien-jurídico-protegido">1.3. Bien Jurídico Protegido</a></li>
+</ul>
+<p>3. <a href="#módulo-2-clasificación-y-tipos-de-delitos-informáticos">Módulo 2: Clasificación y Tipos de Delitos Informáticos</a></p>
+<ul>
+<li><a href="#21-clasificación-según-la-onu--unodc">2.1. Clasificación según la ONU / UNODC</a></li>
+<li><a href="#22-clasificación-según-el-convenio-de-budapest">2.2. Clasificación según el Convenio de Budapest</a></li>
+<li><a href="#23-comparación-de-enfoques-onu-vs-convenio-de-budapest">2.3. Comparación de Enfoques</a></li>
+</ul>
+<p>4. <a href="#módulo-3-marco-legal-en-argentina">Módulo 3: Marco Legal en Argentina</a></p>
+<ul>
+<li><a href="#31-evolución-histórica-de-la-regulación-penal">3.1. Evolución Histórica de la Regulación Penal</a></li>
+<li><a href="#32-incorporación-al-código-penal-argentino">3.2. Incorporación al Código Penal Argentino</a></li>
+<li><a href="#33-normativa-internacional-y-convenios">3.3. Normativa Internacional y Convenios</a></li>
+</ul>
+<p>5. <a href="#módulo-4-ley-26388--análisis-normativo">Módulo 4: Ley 26.388 — Análisis Normativo</a></p>
+<ul>
+<li><a href="#41-objeto-y-alcance-de-la-ley-26388">4.1. Objeto y Alcance de la Ley 26.388</a></li>
+<li><a href="#42-modificaciones-específicas-al-código-penal">4.2. Modificaciones Específicas al Código Penal</a></li>
+<li><a href="#43-nuevas-figuras-típicas-incorporadas">4.3. Nuevas Figuras Típicas Incorporadas</a></li>
+<li><a href="#44-importancia-de-la-ley-26388">4.4. Importancia de la Ley 26.388</a></li>
+</ul>
+<p>6. <a href="#módulo-5-delitos-en-particular-i--grooming-y-ciberacoso">Módulo 5: Delitos en Particular I — Grooming y Ciberacoso</a></p>
+<ul>
+<li><a href="#51-grooming-ley-26904">5.1. Grooming (Ley 26.904)</a></li>
+<li><a href="#52-ciberacoso-y-hostigamiento-digital">5.2. Ciberacoso y Hostigamiento Digital</a></li>
+<li><a href="#53-prevención-y-protocolos-de-actuación">5.3. Prevención y Protocolos de Actuación</a></li>
+</ul>
+<p>7. <a href="#módulo-6-delitos-en-particular-ii--phishing-y-estafas-digitales">Módulo 6: Delitos en Particular II — Phishing y Estafas Digitales</a></p>
+<ul>
+<li><a href="#61-phishing-e-ingeniería-social">6.1. Phishing e Ingeniería Social</a></li>
+<li><a href="#62-fraude-e-identidad-digital">6.2. Fraude e Identidad Digital</a></li>
+<li><a href="#63-responsabilidad-bancaria-y-de-plataformas">6.3. Responsabilidad Bancaria y de Plataformas</a></li>
+</ul>
+<p>8. <a href="#módulo-7-delitos-en-particular-iii--sabotaje-malware-y-acceso-ilegítimo">Módulo 7: Delitos en Particular III — Sabotaje, Malware y Acceso Ilegítimo</a></p>
+<ul>
+<li><a href="#71-introducción-y-contexto-tecnológico">7.1. Introducción y Contexto Tecnológico</a></li>
+<li><a href="#72-acceso-ilegítimo-y-hacking-artículo-153-bis">7.2. Acceso Ilegítimo y Hacking (Artículo 153 bis)</a></li>
+<li><a href="#73-daño-informático-y-sabotaje-artículo-183">7.3. Daño Informático y Sabotaje (Artículo 183)</a></li>
+<li><a href="#74-malware-ransomware-y-ataques-ddos">7.4. Malware, Ransomware y Ataques DDoS</a></li>
+</ul>
+<p>9. <a href="#módulo-8-casos-jurisprudenciales-en-argentina">Módulo 8: Casos Jurisprudenciales en Argentina</a></p>
+<ul>
+<li><a href="#81-criterios-para-la-selección-de-fallos">8.1. Criterios para la Selección de Fallos</a></li>
+<li><a href="#82-análisis-de-casos-jurisprudenciales-emblemáticos">8.2. Análisis de Casos Jurisprudenciales Emblemáticos</a></li>
+<li><a href="#83-síntesis-comparativa-de-fallos">8.3. Síntesis Comparativa de Fallos</a></li>
+</ul>
+<p>10. <a href="#módulo-9-evidencia-digital-integración-temática-y-conclusiones">Módulo 9: Evidencia Digital, Integración Temática y Conclusiones</a></p>
+<ul>
+<li><a href="#101-la-evidencia-digital-e-informática-forense">10.1. La Evidencia Digital e Informática Forense</a></li>
+<li><a href="#102-cadena-de-custodia-y-validez-en-juicio">10.2. Cadena de Custodia y Validez en Juicio</a></li>
+<li><a href="#103-vinculación-e-integración-temática-apartado-obligatorio">10.3. Vinculación e Integración Temática (Apartado Obligatorio)</a></li>
+<li><a href="#104-desafíos-futuros-y-transnacionalidad">10.4. Desafíos Futuros y Transnacionalidad</a></li>
+<li><a href="#105-conclusiones-generales-del-trabajo">10.5. Conclusiones Generales del Trabajo</a></li>
+</ul>
+<p>11. <a href="#bibliografía-general-unificada">Bibliografía General Unificada</a></p>
+<hr>
+<div class="page-break"></div>
+<h2>INTRODUCCIÓN GENERAL</h2>
+<p>El vertiginoso avance de las tecnologías de la información y la comunicación (TIC) ha reconfigurado las relaciones sociales, comerciales y administrativas de la sociedad contemporánea. Sin embargo, esta transformación digital ha traído consigo la emergencia de nuevas modalidades delictivas que ponen a prueba los principios fundamentales del Derecho Penal tradicional.</p>
+<p>El presente Trabajo Práctico de Investigación, desarrollado por el <strong>Grupo 141-A</strong> para la cátedra de <strong>Legislación de la Universidad Tecnológica Nacional (UTN FRA)</strong>, tiene por objetivo ofrecer un análisis integral, dogmático y pragmático sobre el fenómeno de los <strong>Delitos Informáticos en Argentina</strong>.</p>
+<p>A lo largo de los nueve módulos que componen este informe, se abordan desde las nociones conceptuales básicas (sujetos, bien jurídico protegido y tipología) hasta las profundas reformas introducidas en el Código Penal por la <strong>Ley 26.388</strong> y normas complementarias como la <strong>Ley 26.904 (Grooming)</strong> y la <strong>Ley 27.411 (Convenio de Budapest)</strong>. Asimismo, se examinan las figuras delictivas de mayor impacto en la actualidad —tales como el <em>Phishing</em>, las estafas electrónicas, el <em>Hacking</em>, el <em>Ransomware</em> y el ciberacoso—, complementadas con el análisis jurisprudencial de fallos emblemáticos de nuestros tribunales y una sección especial de <strong>vinculación e integración temática</strong> con otras materias del derecho.</p>
+<p>Por último, se examinan los principios científicos de la informática forense (norma <strong>ISO/IEC 27037</strong>), la preservación de la cadena de custodia y los desafíos procesales que plantean la transnacionalidad y la irrupción de la Inteligencia Artificial.</p>
+<hr>
+<div class="page-break"></div>
+<h1>Módulo 1: Concepto y Partes del Delito Informático</h1>
+<p><strong>Responsable:</strong> ARREDONDO, Agustín Fernando (<span class="inline-code">agustinarredondo4@gmail.com</span>)</p>
+<p><strong>Estado:</strong> Completo / En revisión</p>
+<hr>
+<h2>1. Definición y Concepto</h2>
+<h3>1.1. Concepto de Delito Informático</h3>
+<p>Los delitos informáticos son conductas ilícitas en las que intervienen dispositivos, sistemas o tecnologías informáticas. La tecnología puede utilizarse como medio para cometer un delito, por ejemplo, cuando se utiliza un dispositivo para amenazar o acosar a otra persona, o puede ser el objeto sobre el que recae la conducta, como sucede cuando se altera o daña un sistema informático o los datos que contiene.</p>
+<p>Por este motivo, el término delito informático no hace referencia a un único delito específico, sino que se utiliza para agrupar distintas conductas delictivas relacionadas con el uso de tecnologías informáticas.</p>
+<p>De esta manera, para determinar si una conducta constituye un delito informático no alcanza solamente con que se haya utilizado una computadora, un celular o Internet. También es necesario analizar qué conducta se realizó y qué bien jurídico resulta afectado.</p>
+<h3>1.2. Delito Informático Propio e Impropio</h3>
+<p>Una forma de diferenciar los delitos informáticos es teniendo en cuenta el papel que cumple la tecnología en la conducta. A partir de este criterio se puede distinguir entre delitos informáticos propios e impropios.</p>
+<ul>
+<li><strong>Delitos Informáticos Propios:</strong> Son aquellos en los que las tecnologías de la información y la comunicación son indispensables para realizar la conducta. En estos casos, el sistema informático, los datos o la información forman parte central del delito. Por ejemplo, el acceso no autorizado a un sistema informático.</li>
+<li><strong>Delitos Informáticos Impropios:</strong> Son delitos que ya existían anteriormente y que pueden cometerse sin utilizar tecnología, pero que encuentran en las herramientas informáticas un nuevo medio para llevarse a cabo. Por ejemplo, una amenaza puede realizarse personalmente o mediante un mensaje electrónico.</li>
+</ul>
+<p>Esta diferencia permite entender que el uso de una computadora, un celular o Internet no convierte por sí solo a una conducta en un delito informático propio. Es necesario observar qué función cumple la tecnología dentro del hecho y sobre qué recae la conducta delictiva.</p>
+<hr>
+<h2>2. Sujetos del Delito</h2>
+<h3>2.1. Sujeto Activo y Principales Perfiles</h3>
+<p>Desde el punto de vista jurídico, el sujeto activo es la persona que realiza la conducta prevista por la ley penal como delito. Puede tratarse de una sola persona o de varias que intervengan en la comisión del hecho, por ejemplo, como autores o coautores.</p>
+<p>En los delitos informáticos, el sujeto activo es quien utiliza, afecta o interviene sobre sistemas, dispositivos, datos o tecnologías informáticas para llevar adelante la conducta delictiva. No es necesario que tenga conocimientos informáticos avanzados en todos los casos, ya que el nivel de conocimiento y los recursos utilizados pueden variar según el delito.</p>
+<h4>Principales Perfiles</h4>
+<ul>
+<li><strong>Insider:</strong> Es una persona que posee un acceso legítimo a un sistema y lo utiliza de manera indebida.</li>
+<li><strong>Atacante Externo:</strong> Es una persona que no pertenece a la organización o sistema afectado y busca acceder o intervenir en él sin autorización.</li>
+<li><strong>Cibercriminal Organizado:</strong> Es una persona que actúa junto con otras dentro de estructuras organizadas para llevar adelante actividades delictivas utilizando medios tecnológicos.</li>
+</ul>
+<h3>2.2. Sujeto Pasivo</h3>
+<p>Desde el punto de vista jurídico, el sujeto pasivo es la persona o entidad que resulta afectada por la conducta delictiva, ya sea porque sufre directamente el daño o porque se ve afectado el bien jurídico protegido por la norma.</p>
+<p>En los delitos informáticos, el sujeto pasivo puede ser una persona, una organización o una institución. Esto se debe a que las tecnologías informáticas son utilizadas tanto por individuos como por empresas y organismos públicos, por lo que todos ellos pueden verse afectados por una conducta delictiva.</p>
+<p>Entre las posibles víctimas se encuentran:</p>
+<ul>
+<li><strong>Personas Físicas:</strong> Pueden sufrir afectaciones sobre su patrimonio, privacidad, información personal u otros derechos.</li>
+<li><strong>Empresas y Organizaciones:</strong> Pueden sufrir pérdidas económicas, filtraciones de información o afectaciones en sus sistemas.</li>
+<li><strong>Organismos Públicos:</strong> Pueden ser víctimas de ataques que afecten sus sistemas, información o servicios.</li>
+</ul>
+<hr>
+<h2>3. Bien Jurídico Protegido</h2>
+<h3>3.1. Concepto de Bien Jurídico</h3>
+<p>El bien jurídico es el interés o valor que la norma busca proteger frente a determinadas conductas. En los delitos informáticos no existe un único bien jurídico que sea afectado en todos los casos, ya que depende del tipo de delito y de la conducta realizada.</p>
+<p>Por este motivo, una conducta cometida utilizando medios informáticos puede afectar bienes jurídicos que también se encuentran presentes en delitos tradicionales, como el patrimonio, la propiedad o la intimidad.</p>
+<h3>3.2. Bienes Jurídicos Tradicionales</h3>
+<ul>
+<li><strong>Patrimonio:</strong> Puede verse afectado cuando una conducta provoca una pérdida económica o busca obtener un beneficio económico de manera ilícita.</li>
+<li><strong>Propiedad:</strong> Puede verse afectada cuando una conducta provoca la destrucción, daño o apropiación ilegítima de bienes pertenecientes a otra persona.</li>
+<li><strong>Intimidad y Privacidad:</strong> Pueden verse afectadas mediante el acceso, divulgación o utilización no autorizada de información personal.</li>
+<li><strong>Libertad:</strong> Puede verse afectada cuando se utilizan medios tecnológicos para realizar amenazas, acoso u otras conductas que condicionen la libertad de una persona.</li>
+<li><strong>Integridad Sexual:</strong> Puede verse afectada en determinadas conductas delictivas que utilizan medios digitales para vulnerar la integridad sexual de las personas.</li>
+</ul>
+<h3>3.3. Información y Seguridad de los Sistemas</h3>
+<p>Además de los bienes jurídicos tradicionales, en los delitos informáticos adquieren especial importancia la información y los sistemas informáticos. En este ámbito se utilizan tres características fundamentales para describir la seguridad de la información: confidencialidad, integridad y disponibilidad. La normativa argentina define estas tres características de la siguiente manera:</p>
+<table border="1" cellspacing="0" cellpadding="6">
+<thead><tr><th>Principio</th><th>Descripción</th></tr></thead><tbody>
+<tr><td><strong>Confidencialidad</strong></td><td>La información solamente debe ser accesible para las personas autorizadas.</td></tr>
+<tr><td><strong>Integridad</strong></td><td>La información debe mantenerse completa y correcta, evitando modificaciones no autorizadas.</td></tr>
+<tr><td><strong>Disponibilidad</strong></td><td>La información y los recursos deben estar disponibles para los usuarios autorizados cuando los necesiten.</td></tr>
+</tbody></table>
+<p>Sin embargo, la confidencialidad, integridad y disponibilidad no deben entenderse como un único bien jurídico aplicable a todos los delitos informáticos. Son principalmente características de seguridad de la información que ayudan a identificar qué aspecto de un sistema o de sus datos fue afectado. Dependiendo del delito, también pueden estar involucrados bienes jurídicos como el patrimonio, la intimidad o la libertad.</p>
+<hr>
+<div class="page-break"></div>
+<h1>Módulo 2: Clasificación y Tipos de Delitos Informáticos</h1>
+<p><strong>Responsable:</strong> ALVAREZ TAIBO, Gabriel Angel (<span class="inline-code">alvareztaibo@gmail.com</span>)</p>
+<p><strong>Estado:</strong> Completo / En revisión</p>
+<hr>
+<h2>1. Clasificación según la ONU / UNODC</h2>
+<p>La ciberdelincuencia es un fenómeno interdisciplinario, por lo que puede clasificarse desde tres perspectivas principales: científica, criminológica/jurídica y política.</p>
+<h3>1.1. Ámbito Científico</h3>
+<p>La clasificación se establece en función del nivel de transformación o dependencia de las tecnologías de comunicación digital y de redes. El delito puede ser:</p>
+<ul>
+<li><strong>Asistido:</strong> la tecnología facilita o ayuda a cometer un delito, pero no resulta esencial para su realización.</li>
+<li>Ej. Un delito tradicional para cuya organización o comunicación se utilizan medios digitales.</li>
+</ul>
+<ul>
+<li><strong>Propiciado:</strong> delito facilitado por medios cibernéticos, que adquiere mayor alcance, velocidad o facilidad gracias a las tecnologías digitales.</li>
+<li>Ej. Fraude, acoso o fraude informático realizado mediante Internet.</li>
+</ul>
+<ul>
+<li><strong>Dependiente:</strong> delito que no podría cometerse sin las tecnologías digitales o de Internet, ya que estas son indispensables para su realización.</li>
+<li>Ej. Acceso ilícito (<em>hacking</em>), ataques DoS/DDoS o distribución de programas malignos (<em>malware</em>).</li>
+</ul>
+<h3>1.2. Comunidad Criminológica / Jurídica</h3>
+<p>Considera los delitos cibernéticos en función de los actos criminales o del <em>modus operandi</em> (modo de operar):</p>
+<ul>
+<li><strong>Contra la computadora:</strong> la computadora, sistema o red constituye el objetivo del delito.</li>
+<li>Ej. <em>Hacking</em> o acceso ilícito.</li>
+</ul>
+<ul>
+<li><strong>Haciendo uso de la computadora:</strong> la computadora o dispositivo se utiliza como medio para cometer el delito.</li>
+<li>Ej. Fraude, acoso o fraude informático.</li>
+</ul>
+<ul>
+<li><strong>En la computadora:</strong> el delito está relacionado con el contenido almacenado, transmitido o difundido mediante sistemas informáticos.</li>
+<li>Ej. Material de abuso sexual infantil, material de odio o material relacionado con terrorismo.</li>
+</ul>
+<h3>1.3. Ámbito Político</h3>
+<p>Analiza la ciberdelincuencia según sus efectos sobre la política, el sistema político y los gobiernos.</p>
+<p>Estas tres perspectivas no son excluyentes. Un mismo delito puede ser analizado desde más de una de ellas.</p>
+<h3>1.4. Tipología General de UNODC</h3>
+<p>Además de estas perspectivas, UNODC presenta una tipología general basada en categorías de actos:</p>
+<ul>
+<li>Contra la confidencialidad, integridad y disponibilidad de datos y sistemas.</li>
+<li>Actos informáticos para obtener beneficio o causar perjuicio.</li>
+<li>Actos relacionados con contenidos informáticos.</li>
+</ul>
+<hr>
+<h2>2. Clasificación según el Convenio de Budapest</h2>
+<p>El Convenio de Budapest contempla la clasificación de delitos basada en la naturaleza de la conducta delictiva y el bien jurídico afectado.</p>
+<h3>2.1. Delitos contra la Confidencialidad, Integridad y Disponibilidad de Datos y Sistemas</h3>
+<ul>
+<li>Acceso ilícito (Art. 2)</li>
+<li>Interceptación ilícita (Art. 3)</li>
+<li>Interferencia de datos (Art. 4)</li>
+<li>Interferencia de sistemas (Art. 5)</li>
+<li>Abuso de dispositivos (Art. 6)</li>
+</ul>
+<h3>2.2. Delitos Relacionados con Computadoras</h3>
+<ul>
+<li>Falsificación informática (Art. 7)</li>
+<li>Fraude informático (Art. 8)</li>
+</ul>
+<h3>2.3. Delitos Relacionados con el Contenido</h3>
+<ul>
+<li>Material de abuso sexual infantil (Art. 9)</li>
+</ul>
+<h3>2.4. Infracciones a la Propiedad Intelectual</h3>
+<ul>
+<li>Infracciones de copyright y derechos conexos (Art. 10)</li>
+</ul>
+<h3>2.5. Otras Disposiciones Penales</h3>
+<ul>
+<li>Tentativa y complicidad (Art. 11)</li>
+<li>Responsabilidad de personas jurídicas (Art. 12)</li>
+</ul>
+<hr>
+<h2>3. Comparación de Enfoques (ONU vs. Convenio de Budapest)</h2>
+<table border="1" cellspacing="0" cellpadding="6">
+<thead><tr><th>Aspecto</th><th>ONU</th><th>Convenio de Budapest</th></tr></thead><tbody>
+<tr><td><strong>Naturaleza</strong></td><td>Enfoque interdisciplinario y criminológico</td><td>Enfoque jurídico internacional</td></tr>
+<tr><td><strong>Criterio</strong></td><td>Diferentes perspectivas y categorías de actos</td><td>Naturaleza de la conducta y bien jurídico afectado</td></tr>
+<tr><td><strong>Contra sistemas y datos</strong></td><td>Actos contra la confidencialidad, integridad y disponibilidad</td><td>Acceso, interceptación, interferencia y abuso de dispositivos</td></tr>
+<tr><td><strong>Fraude y falsedad</strong></td><td>Actos informáticos para obtener beneficio o causar perjuicio</td><td>Falsificación y fraude informático</td></tr>
+<tr><td><strong>Contenido</strong></td><td>Actos relacionados con contenidos informáticos</td><td>Material de abuso sexual infantil</td></tr>
+<tr><td><strong>Propiedad intelectual</strong></td><td>Incluida dentro de los actos informáticos</td><td>Copyright y derechos conexos</td></tr>
+<tr><td><strong>Otros aspectos</strong></td><td>Considera perspectivas científicas, criminológica/jurídica y política</td><td>Tentativa, complicidad y responsabilidad de personas jurídicas</td></tr>
+</tbody></table>
+<hr>
+<h2>4. Bibliografía y Fuentes Consultadas</h2>
+<h3>Naciones Unidas / UNODC</h3>
+<p>United Nations Office on Drugs and Crime. (s. f.). <em>Cybercrime Module 2: General types of cybercrime</em>. SHERLOC.</p>
+<p><a href="https://sherloc.unodc.org/cld/es/education/tertiary/cybercrime/module-2/key-issues/intro.html">Cybercrime Module 2 - SHERLOC</a></p>
+<h3>Consejo de Europa — Convenio de Budapest</h3>
+<p>Council of Europe. (2001). <em>Convention on Cybercrime (Budapest Convention)</em>.</p>
+<p><a href="https://www.coe.int/en/web/cybercrime/the-budapest-convention">Convention on Cybercrime</a></p>
+<h3>Informe explicativo del Convenio</h3>
+<p>Council of Europe. (2001). <em>Explanatory Report to the Convention on Cybercrime</em>.</p>
+<p><a href="https://rm.coe.int/16800cce5b">Explanatory Report to the Convention on Cybercrime</a></p>
+<div class="page-break"></div>
+<h1>Módulo 3: Marco Legal en Argentina</h1>
+<p><strong>Responsable:</strong> BUENAVENTURA, Martina Pilar (<span class="inline-code">martinabuenaventura2024@gmail.com</span>)</p>
+<p><strong>Estado:</strong> Completo / En revisión</p>
+<hr>
+<h2>1. Evolución Histórica de la Regulación Penal</h2>
+<h3>1.1. Situación Previa a 2008 y el Vacío Legal</h3>
+<p>Hasta el año 2008, la Argentina no contaba con una legislación penal específica en materia de delitos informáticos. El Código Penal argentino, sancionado en 1921 (Ley 11.179), había sido concebido para proteger bienes jurídicos tradicionales —ya sea la propiedad, la privacidad o la fe pública— a través de figuras pensadas para conductas materiales y objetos tangibles (documentos en papel, cosas muebles, correspondencia física).</p>
+<p>El desarrollo de la informática y de Internet generó nuevas modalidades de agresión a esos mismos bienes jurídicos, tales como el acceso no autorizado a sistemas, el sabotaje o daño informático, los fraudes cometidos a través de redes o el apoderamiento y desvío electrónico de dinero; hechos que no encajaban con precisión en los tipos penales existentes.</p>
+<p>Este desajuste entre la norma y la realidad tecnológica generó lo que la doctrina denominó un “vacío legal”: numerosas conductas manifiestamente lesivas quedaban sin sanción penal posible, no porque no fueran percibidas como injustas, sino porque el derecho penal argentino está regido por el <strong>principio de legalidad</strong>, que impide castigar una conducta que no esté expresamente prevista como delito en una ley previa, y que prohíbe de manera especial la aplicación de la analogía en perjuicio del imputado (<em>in malam partem</em>).</p>
+<h3>1.2. El Caso Lanata y la Prohibición de la Analogía</h3>
+<p>Un antecedente jurisprudencial emblemático que ilustra esta tensión es el caso <strong>“Lanata, Jorge s/desestimación”</strong> (Cámara Nacional de Apelaciones en lo Criminal y Correccional, Sala VI, 4/3/1999), en el que el tribunal consideró que el correo electrónico podía equipararse a la correspondencia epistolar tradicional a los fines de los artículos 153 y 155 del Código Penal (entonces referidos exclusivamente a la violación de correspondencia física).</p>
+<p>Si bien el fallo permitió avanzar sobre una conducta que de otro modo hubiera quedado impune, gran parte de la doctrina penal cuestionó dicha equiparación por constituir, en los hechos, una aplicación analógica de tipos penales pensados para otro objeto. Esto evidenció con claridad la necesidad impostergable de una reforma legislativa expresa antes que de soluciones jurisprudenciales extensivas.</p>
+<p>Entre 2002 y 2008 se presentaron en el Congreso Nacional más de una decena de proyectos de ley orientados a tipificar distintas conductas informáticas. Recién en 2008 esos múltiples proyectos fueron unificados en una sola iniciativa que dio origen a la <strong>Ley 26.388</strong>.</p>
+<hr>
+<h2>2. Incorporación al Código Penal Argentino</h2>
+<h3>2.1. Principio de Legalidad (Art. 18 CN)</h3>
+<p>El punto de partida constitucional de todo este proceso es el <strong>artículo 18 de la Constitución Nacional</strong>, que consagra la garantía fundamental del principio de legalidad penal (<em>nullum crimen, nulla poena sine lege praevia</em>):</p>
+<blockquote><em>"Ningún habitante de la Nación puede ser penado sin juicio previo fundado en ley anterior al hecho del proceso."</em></blockquote>
+<p>Esta garantía es la razón jurídica central por la cual no bastaba con “interpretar” de manera extensiva las figuras ya existentes: era imprescindible una reforma legislativa expresa que las tipificara con precisión.</p>
+<h3>2.2. Técnica Legislativa de la Ley 26.388</h3>
+<p>Frente a esa necesidad, el legislador argentino tuvo dos caminos posibles: sancionar una ley penal especial y autónoma dedicada exclusivamente a los delitos informáticos, o bien incorporar las nuevas figuras dentro de la estructura ya existente del Código Penal.</p>
+<p>La Argentina optó por la segunda opción: la <strong>Ley 26.388</strong>, sancionada el 4 de junio de 2008 y publicada en el Boletín Oficial el 25 de junio de 2008, no crea un cuerpo normativo separado, sino que reforma y añade artículos dentro del propio Código Penal, distribuidos en distintos títulos (delitos contra la libertad e intimidad, contra la propiedad, contra la fe pública y contra la administración pública) según el bien jurídico protegido.</p>
+<p>Esta decisión tuvo una doble ventaja práctica:</p>
+<ul>
+<li>Evitó la creación de un sistema penal paralelo y mantuvo la unidad sistemática del Código Penal.</li>
+<li>Permitió que las nuevas figuras se beneficiaran de los principios generales, agravantes, atenuantes y reglas de participación ya previstos en la Parte General del Código.</li>
+</ul>
+<hr>
+<h2>3. Normativa Internacional y Convenios</h2>
+<h3>3.1. El Convenio de Budapest (Consejo de Europa)</h3>
+<p>El principal instrumento internacional en materia de ciberdelincuencia es el <strong>Convenio sobre Ciberdelito del Consejo de Europa</strong> (Convenio de Budapest), adoptado el 23 de noviembre de 2001 y vigente desde 2004. Es el primer tratado internacional dedicado específicamente a los delitos informáticos, con el objetivo de armonizar las definiciones legales entre los Estados parte y sentar bases comunes de cooperación penal internacional.</p>
+<p>El Convenio combina disposiciones de derecho penal sustantivo, derecho procesal y mecanismos de cooperación internacional, como la <strong>"red 24/7"</strong> para asistencia inmediata en investigaciones trasnacionales.</p>
+<h3>3.2. Adhesión de Argentina (Ley 27.411) y Reservas Formuladas</h3>
+<p>La Argentina formalizó su adhesión mediante la <strong>Ley 27.411</strong>, sancionada a fines de 2017 y con entrada en vigor el 1º de octubre de 2018. Sin embargo, la adhesión se realizó con determinadas <strong>reservas explícitas</strong>:</p>
+<ul>
+<li><strong>Reserva al Art. 6.1.b:</strong> Rechazo a tipificar como delito autónomo la mera posesión de herramientas informáticas o software malicioso sin haber sido utilizadas, por considerar que implica penalizar actos preparatorios, algo ajeno a la tradición penal argentina.</li>
+<li><strong>Reservas al Art. 9:</strong> Ajustes en supuestos de posesión de material de abuso sexual infantil para mantener coherencia con el Código Penal reformado por la Ley 26.388.</li>
+<li><strong>Reservas a los Arts. 22.1.d y 29.4:</strong> En resguardo de las reglas de jurisdicción penal y del principio de doble incriminación (exigido por la Ley N° 24.767 de Cooperación Internacional en Materia Penal).</li>
+</ul>
+<p>Puesto que la Argentina ya contaba con la Ley 26.388 desde 2008, el aporte más significativo de la adhesión al Convenio de Budapest se produjo en el plano procesal y de cooperación internacional para la obtención y preservación de evidencia digital trasnacional.</p>
+<h3>3.3. Segundo Protocolo Adicional</h3>
+<p>En mayo de 2022 se aprobó el texto del <strong>Segundo Protocolo Adicional del Convenio de Budapest</strong>, orientado a reforzar la cooperación directa con proveedores de servicios en la nube y la obtención rápida de datos transfronterizos. En febrero de 2023, la Argentina manifestó su voluntad de adherir mediante la firma del Poder Ejecutivo, quedando pendiente la aprobación parlamentaria.</p>
+<hr>
+<div class="page-break"></div>
+<h1>Módulo 4: Ley 26.388 — Análisis Normativo</h1>
+<p><strong>Responsable:</strong> ARES MUNIZ, Thiago (<span class="inline-code">aresthiago911@gmail.com</span>)</p>
+<p><strong>Estado:</strong> Completo / Revisado</p>
+<hr>
+<h2>1. Objeto y Alcance de la Ley 26.388</h2>
+<h3>1.1. Contexto de Sanción y Naturaleza Jurídica</h3>
+<p>La <strong>Ley 26.388</strong>, sancionada en 2008, modificó el <strong>Código Penal Argentino</strong> para incorporar y adaptar diferentes delitos relacionados con el uso de tecnologías informáticas.</p>
+<p>La ley no creó un Código Penal Informático independiente, sino que incorporó las conductas vinculadas con la informática dentro del cuerpo normativo del Código Penal existente (Ley N.º 11.179).</p>
+<h3>1.2. Principales Temas Alcanzados</h3>
+<ul>
+<li>Acceso no autorizado a sistemas y datos informáticos.</li>
+<li>Interceptación de comunicaciones electrónicas.</li>
+<li>Violación de secretos y privacidad.</li>
+<li>Daño o alteración de datos y sistemas.</li>
+<li>Fraude mediante manipulación informática.</li>
+<li>Protección de datos personales.</li>
+<li>Interrupción de comunicaciones.</li>
+<li>Delitos relacionados con material sexual que involucra a menores.</li>
+</ul>
+<hr>
+<h2>2. Modificaciones Específicas al Código Penal</h2>
+<p>La Ley 26.388 modificó diferentes artículos del Código Penal para adaptarlos al contexto tecnológico.</p>
+<h3>2.1. Desglose de Artículos Modificados</h3>
+<ul>
+<li><strong>Artículo 77 (Conceptos Generales):</strong> Amplió el concepto de <strong>documento</strong>, permitiendo incluir documentos almacenados, archivados o transmitidos mediante medios digitales. También contempla la firma digital.</li>
+<li><strong>Artículo 128 (Material de Abuso Sexual Infantil):</strong> Modificó las disposiciones relacionadas con material sexual que involucra a menores de 18 años, incluyendo conductas realizadas mediante medios tecnológicos y digitales.</li>
+<li><strong>Artículo 153 (Violación de Comunicaciones):</strong> Amplió la protección de las comunicaciones tradicionales para incluir las <strong>comunicaciones electrónicas</strong> y telecomunicaciones.</li>
+<li><strong>Artículo 153 bis (Acceso Ilegítimo / Hacking):</strong> Incorporó el delito de <strong>acceso ilegítimo a sistemas o datos informáticos</strong>. Se sanciona el ingreso no autorizado o el exceso en la autorización otorgada a un sistema restringido.</li>
+<li><strong>Artículo 155 (Publicación Indebida):</strong> Reguló la publicación indebida de correspondencia o comunicaciones electrónicas cuando dicha divulgación pueda causar perjuicio a terceros.</li>
+<li><strong>Artículo 157 bis (Bases de Datos Personales):</strong> Estableció delitos relacionados con el acceso ilegítimo, revelación, inserción o modificación de información contenida en <strong>bases de datos personales</strong>.</li>
+<li><strong>Artículo 173, inciso 16 (Fraude Informático):</strong> Incorporó la <strong>defraudación mediante manipulación informática</strong>, sancionando la alteración del normal funcionamiento de un sistema informático o la transmisión de datos para causar un perjuicio patrimonial.</li>
+<li><strong>Artículo 183 (Daño Informático):</strong> Incorporó el delito de <strong>daño informático</strong>, sancionando la alteración, destrucción o inutilización de datos, documentos, programas o sistemas informáticos, así como la introducción o distribución de programas dañinos (malware).</li>
+<li><strong>Artículo 184 (Agravantes del Daño):</strong> Estableció circunstancias agravantes cuando el daño informático afecta determinados sistemas o datos, especialmente aquellos vinculados con servicios públicos, esenciales o de la administración estatal.</li>
+</ul>
+<hr>
+<h2>3. Nuevas Figuras Típicas Incorporadas</h2>
+<p>Las figuras típicas son las conductas específicas que la ley define formalmente como delitos en el ordenamiento penal.</p>
+<h3>3.1. Definición de Conductas Delictivas Digitales</h3>
+<ul>
+<li><strong>Acceso ilegítimo informático:</strong> Ingresar sin autorización, o excediendo la autorización otorgada, a un sistema o dato informático de acceso restringido.</li>
+<li><strong>Daño informático:</strong> Alterar, destruir o inutilizar datos, documentos, programas o sistemas informáticos.</li>
+<li><strong>Fraude informático:</strong> Generar un perjuicio patrimonial mediante la manipulación ilícita de sistemas informáticos o transmisión de datos.</li>
+<li><strong>Violación de comunicaciones electrónicas:</strong> Interceptar, captar o desviarle ilegítimamente comunicaciones electrónicas o telecomunicaciones privadas.</li>
+<li><strong>Delitos relacionados con datos personales:</strong> Acceder, revelar, alterar o introducir ilegítimamente información confidencial en bases de datos personales.</li>
+<li><strong>Interrupción de comunicaciones:</strong> Interrumpir o entorpecer intencionalmente el funcionamiento de comunicaciones o servicios tecnológicos.</li>
+<li><strong>Distribución de programas dañinos:</strong> Introducir, distribuir o hacer circular programas ejecutables o código destinados a provocar daños en sistemas informáticos (malware, virus, trojano).</li>
+</ul>
+<hr>
+<h2>4. Importancia de la Ley 26.388</h2>
+<p>La Ley 26.388 fue un paso decisivo porque permitió adaptar el Derecho Penal argentino al avance vertiginoso de las tecnologías de la información y la comunicación (TIC).</p>
+<p>La normativa permitió contemplar y sancionar conductas realizadas mediante computadoras y otros sistemas tecnológicos que afectaban bienes jurídicos tutelados como:</p>
+<ul>
+<li>La privacidad y la intimidad.</li>
+<li>La propiedad y el patrimonio.</li>
+<li>La protección de los datos personales.</li>
+<li>La integridad y disponibilidad de la información.</li>
+<li>La seguridad de los sistemas informáticos.</li>
+<li>El secreto de las comunicaciones electrónicas.</li>
+</ul>
+<hr>
+<h2>5. Conclusión</h2>
+<p>La <strong>Ley 26.388</strong> incorporó el ámbito informático dentro de distintas figuras del Código Penal argentino.</p>
+<p>Su principal objetivo fue actualizar la legislación frente a delitos cometidos mediante tecnologías digitales, contemplando situaciones complejas como el acceso ilegítimo, el daño informático, el fraude, la violación de comunicaciones y los delitos relacionados con datos personales. De esta manera, la legislación argentina comenzó a contar con herramientas normativas específicas para abordar las múltiples formas de la <strong>delincuencia informática</strong>.</p>
+<hr>
+<div class="page-break"></div>
+<h1>Módulo 5: Delitos en Particular I — Grooming y Ciberacoso</h1>
+<p><strong>Responsable:</strong> ALLENDE, Evelyn Astrid (<span class="inline-code">evelynastridallende@gmail.com</span>)</p>
+<p><strong>Estado:</strong> Completo / En revisión</p>
+<hr>
+<h2>1. Grooming (Ley 26.904)</h2>
+<h3>1.1. Encuadre Penal: Art. 131 del Código Penal</h3>
+<p>Sancionada en 2013, la <strong>Ley 26.904</strong> incorporó el <strong>artículo 131 al Código Penal Argentina</strong>, tipificando formalmente el delito de grooming o ciberacoso sexual contra menores de edad:</p>
+<blockquote><em>"Será penado con prisión de seis (6) meses a cuatro (4) años el que, por medio de comunicaciones electrónicas, telecomunicaciones o cualquier otra tecnología de transmisión de datos, contactare a una persona menor de edad, con el propósito de cometer cualquier delito contra la integridad sexual de la misma."</em></blockquote>
+<h3>1.2. Elementos del Tipo Penal y Modalidades Operativas</h3>
+<p>Para la configuración del tipo penal del artículo 131, deben concurrir los siguientes elementos esenciales:</p>
+<p>1.  <strong>Sujeto Activo:</strong> Persona física (generalmente un adulto) que lleva a cabo la conducta delictiva.</p>
+<p>2.  <strong>Sujeto Pasivo:</strong> La persona contactada debe ser indefectiblemente menor de 18 años.</p>
+<p>3.  <strong>Conducta Típica:</strong> Contactar al menor a través de cualquier medio tecnológico o digital de transmisión de datos (redes sociales, juegos en línea, mensajería instantánea).</p>
+<p>4.  <strong>Elemento Subjetivo / Finalidad:</strong> Exige la presencia de una finalidad o propósito específico de cometer un delito contra la integridad sexual de la víctima.</p>
+<blockquote><strong>Importante:</strong> No es necesario que se concrete un posterior abuso sexual u otro delito consumado; la norma sanciona el peligro en el momento en que se establece el contacto con ese propósito sexual específico.</blockquote>
+<h4>Modalidades de Engaño y Manipulación</h4>
+<p>El grooming suele desarrollarse mediante manipulación psicológica: el atacante puede asumir una identidad falsa o simular una edad similar a la de la víctima. Posteriormente, intenta trasladar la conversación a canales privados, solicitando datos personales, imágenes o videos de contenido íntimo a través de engaños, chantajes o amenazas.</p>
+<h3>1.3. Bien Jurídico Protegido y Protección Integral</h3>
+<p>El bien jurídico tutelado es la <strong>integridad sexual y el libre desarrollo de niñas, niños y adolescentes (NNyA)</strong>. Esta norma penal se articula de manera complementaria con la <strong>Ley Nacional 26.061 de Protección Integral de los Derechos de NNyA</strong>, que impone al Estado, la familia y la sociedad la obligación de garantizar el interés superior del niño y su protección frente a cualquier forma de vulneración digital.</p>
+<hr>
+<h2>2. Ciberacoso y Hostigamiento Digital</h2>
+<h3>2.1. Ciberbullying entre Menores</h3>
+<p>El concepto de ciberacoso es más amplio que el de grooming. Incluye formas de acoso, violencia u hostigamiento a través de medios digitales.</p>
+<ul>
+<li><strong>Ciberbullying:</strong> Se define como el maltrato o acoso sistemático que sufre una persona menor de edad por parte de otros menores mediante entornos electrónicos (redes sociales, grupos de mensajería, juegos en línea).</li>
+<li><strong>Diferencia con el Grooming:</strong> A diferencia del grooming, en el ciberbullying no existe una finalidad de explotación sexual ni una asimetría etaria adulto-menor, sino el propósito de humillar, intimidar, aislar o molestar a la víctima entre pares.</li>
+</ul>
+<h3>2.2. Ciberacoso entre Adultos y Otras Figuras Penales</h3>
+<p>El hostigamiento o acoso digital entre adultos no constituye la figura penal de grooming. Cuando se producen conductas de persecución o violencia digital en el ámbito laboral o personal entre adultos, la conducta debe encuadrarse en otros tipos penales tradicionales del Código Penal (tales como <strong>amenazas</strong> del Art. 149 bis, <strong>coacciones</strong> o violaciones a la privacidad) o bien dar lugar a responsabilidades contravencionales y civiles.</p>
+<hr>
+<h2>3. Prevención y Protocolos de Actuación</h2>
+<h3>3.1. Ley 27.590 (Ley Mica Ortega) y Marco Institucional</h3>
+<p>La <strong>Ley 27.590</strong> (conocida como <em>Ley Mica Ortega</em>) creó el <strong>Programa Nacional de Prevención y Concientización del Grooming o Ciberacoso contra Niñas, Niños y Adolescentes</strong>.</p>
+<p>Sus objetivos centrales son:</p>
+<ul>
+<li>Concientizar y educar sobre el uso seguro y responsable de las tecnologías de la información.</li>
+<li>Capacitar a docentes y equipos escolares para detectar alertas tempranas de ciberacoso.</li>
+<li>Difundir los canales de denuncia y asistencia a víctimas y familias.</li>
+</ul>
+<h3>3.2. Preservación de Evidencia y Canales de Denuncia</h3>
+<p>Frente a la sospecha o comisión de un hecho de grooming, es crítico <strong>preservar la evidencia digital</strong>:</p>
+<ul>
+<li>No borrar conversaciones, mensajes, capturas de pantalla, correos electrónicos ni nombres de usuario.</li>
+<li>Registrar números telefónicos y enlaces de perfiles involucrados.</li>
+</ul>
+<h4>Canales Oficiales de Asistencia:</h4>
+<ul>
+<li><strong>Línea 137:</strong> Asistencia y orientación nacional ante víctimas de violencia sexual y grooming.</li>
+<li><strong>Línea 102:</strong> Servicio gratuito y confidencial de atención especializada en derechos de NNyA.</li>
+<li><strong>UFECI / Unidades Fiscales Especializadas:</strong> Fiscalía Especializada en Ciberdelincuencia para la radicación de denuncias penales.</li>
+</ul>
+<hr>
+<div class="page-break"></div>
+<h1>Módulo 6: Delitos en Particular II — Phishing y Estafas Digitales</h1>
+<p><strong>Responsable:</strong> CASTELLANO GUTIERREZ, Axel (<span class="inline-code">castellanoaxl@gmail.com</span>)</p>
+<p><strong>Estado:</strong> Completo / En revisión</p>
+<hr>
+<h2>1. Phishing e Ingeniería Social</h2>
+<h3>1.1. Concepto y Taxonomía del Phishing</h3>
+<p>El <em>phishing</em> es una técnica de ingeniería social orientada a la manipulación psicológica de los usuarios para la obtención ilegítima de datos confidenciales (credenciales de acceso, claves bancarias, números de tarjetas de crédito o tokens de autenticación). A diferencia de los ataques dirigidos puramente a vulnerabilidades de software, explota el factor humano mediante la suplantación de identidad de entidades de confianza.</p>
+<p>Entre sus variantes principales se destacan:</p>
+<ul>
+<li><strong>Phishing Tradicional:</strong> Envíos masivos e indiscriminados de correos electrónicos falsificados que redirigen a sitios web apócrifos.</li>
+<li><strong>Spear Phishing:</strong> Ataque altamente personalizado y dirigido a individuos o sectores específicos dentro de una organización, previa recolección de información objetivo.</li>
+<li><strong>Smishing:</strong> Modalidad ejecutada a través de mensajes de texto (SMS) o mensajería instantánea (WhatsApp, Telegram) invitando a ingresar a enlaces maliciosos o descargar archivos.</li>
+<li><strong>Vishing:</strong> Engaño por vía telefónica o voz sobre IP (VoIP), donde el atacante personifica a un operador bancario, de soporte técnico o de organismos públicos para extraer datos de seguridad en tiempo real.</li>
+</ul>
+<h3>1.2. Mecanismos de Engaño y Vectores de Ataque</h3>
+<p>Los ataques de ingeniería social operan combinando factores de urgencia, autoridad y oportunidad:</p>
+<p>1.  <strong>Suplantación de Dominios y Marcas (Typosquatting / Domain Spoofing):</strong> Registro de nombres de dominio visualmente idénticos a los oficiales.</p>
+<p>2.  <strong>Captura Activa de Credenciales:</strong> Uso de portales intermediarios (<em>man-in-the-middle</em>) creados para interceptar credenciales y códigos de segundo factor de autenticación (2FA/OTP).</p>
+<p>3.  <strong>Descarga de Payload Malicioso:</strong> Infección colateral por <em>malware</em> (trojano bancario o <em>keylogger</em>) a partir del enlace o adjunto recibido.</p>
+<hr>
+<h2>2. Fraude e Identidad Digital</h2>
+<h3>2.1. Encuadre Penal: Art. 173 inc. 16 del Código Penal (Ley 26.388)</h3>
+<p>En el derecho penal argentino, las defraudaciones digitales encuentran su tipo normativo específico en el <strong>artículo 173, inciso 16 del Código Penal</strong>, incorporado por la <strong>Ley 26.388</strong> de Delitos Informáticos:</p>
+<blockquote><em>"El que defraudare a otro mediante cualquier técnica de manipulación informática que altere el normal funcionamiento de un sistema informático o la transmisión de datos."</em></blockquote>
+<ul>
+<li><strong>Diferencia dogmática con la Estafa Tradicional (Art. 172 C.P.):</strong> Mientras la estafa clásica requiere la secuencia <em>ardid → error → disposición patrimonial → perjuicio</em>, en el fraude informático la conducta típicamente altera el procesamiento autómata o la transmisión digital de datos sin que necesariamente medie el vicio de la voluntad en el acto de transferencia de la víctima.</li>
+<li><strong>Bien Jurídico Protegido:</strong> El patrimonio, en confluencia con la integridad e intangibilidad de los sistemas de procesamiento de datos.</li>
+</ul>
+<h3>2.2. Suplantación de Identidad y Modalidades Delictivas Complejas</h3>
+<ul>
+<li><strong>SIM Swapping (Duplicación no autorizada de SIM):</strong> Maniobra en la cual el delincuente engaña a la empresa proveedora de telefonía móvil para tomar el control de la línea del usuario, interceptando los códigos SMS de verificación bancaria.</li>
+<li><strong>Vishing Bancario y Falsos Gestores:</strong> Modalidad muy frecuente donde la víctima es guiada telefónicamente hacia un cajero automático o app bancaria para autorizar tokens o modificar su clave Token.</li>
+<li><strong>Fraude mediante DEBIN (Débito Inmediato):</strong> Utilización engañosa de la herramienta de débito solicitando a la víctima "autorizar una transferencia a su favor", cuando en realidad autoriza la extracción de fondos propios.</li>
+</ul>
+<hr>
+<h2>3. Responsabilidad Bancaria y de Plataformas</h2>
+<h3>3.1. Marco Regulatorio del Banco Central de la República Argentina (BCRA)</h3>
+<p>Frente al incremento exponencial del cibercrimen financiero, el BCRA dictó normativas de cumplimiento obligatorio para las entidades financieras:</p>
+<ul>
+<li><strong>Comunicación "A" 7319:</strong> Establece controles estrictos para el otorgamiento de <strong>créditos preaprobados</strong> vía homebanking. Obliga a verificar de forma fehaciente la identidad del solicitante mediante validación biométrica o prueba de vida, además de verificar la no modificación reciente de los canales de contacto (email/teléfono) y fijar plazos de diferimiento en la acreditación.</li>
+<li><strong>Comunicación "A" 7326:</strong> Regula las operaciones por <strong>DEBIN</strong>, imponiendo la notificación clara y destacada al usuario indicando expresamente que la transacción implicará la extracción de fondos de su cuenta.</li>
+</ul>
+<h3>3.2. Deber de Seguridad y Responsabilidad Civil Objetiva</h3>
+<p>En la jurisprudencia argentina actual, la relación entre el usuario y la entidad bancaria se encuadra en una <strong>relación de consumo</strong> regulada por la <strong>Ley 24.240 (Ley de Defensa del Consumidor)</strong> y el Código Civil y Comercial de la Nación:</p>
+<ul>
+<li><strong>Art. 40 de la Ley 24.240:</strong> Consagra la <strong>responsabilidad objetiva</strong> por el vicio o riesgo del servicio. La banca electrónica constituye un servicio riesgoso cuya seguridad debe ser garantizada por la entidad financiera que lucra con el sistema.</li>
+<li><strong>Deber de Seguridad e Incumplimiento de Normas BCRA:</strong> La inobservancia de los estándares fijados por el BCRA (ej. acreditación inmediata de préstamos sin validación biométrica frente a patrones inusuales de conducta) configura negligencia bancaria.</li>
+<li><strong>Tendencia Jurisprudencial:</strong> Salvo supuestos excepcionales de culpa grave imputable con exclusividad a la víctima, la justicia condena de forma reiterada a los bancos a declarar la nulidad de los préstamos fraudulentos, restituir los débitos indebidos y reparar el daño moral y punitivo del usuario afectado.</li>
+</ul>
+<hr>
+<div class="page-break"></div>
+<h1>Módulo 7: Delitos en Particular III — Sabotaje, Malware y Acceso Ilegítimo</h1>
+<p><strong>Responsable:</strong> BLANCO, Agustín Tobías (<span class="inline-code">agustinblanco2006@gmail.com</span>)</p>
+<p><strong>Estado:</strong> Completo / En revisión</p>
+<hr>
+<h2>1. Introducción y Contexto Tecnológico</h2>
+<p>El desarrollo de las tecnologías de la información y la comunicación transformó por completo nuestra forma de trabajar, relacionarnos y producir. Sin embargo, este cambio de paradigma también generó un nuevo escenario para la delincuencia. En este contexto, el derecho penal se enfrenta al desafío de regular conductas que ocurren en entornos virtuales donde los bienes jurídicos tradicionales, como la propiedad o la intimidad, adoptan formas intangibles.</p>
+<p>Este módulo se centra en analizar tres problemáticas centrales de la cibercriminalidad moderna:</p>
+<ul>
+<li>El acceso ilegítimo a sistemas informáticos, comúnmente conocido como <em>hacking</em>.</li>
+<li>El daño informático y el sabotaje a través de la manipulación lógica.</li>
+<li>La proliferación de códigos maliciosos, desde el <em>malware</em> tradicional y el <em>ransomware</em> hasta los ataques de denegación de servicio (DDoS).</li>
+</ul>
+<p>Para entender cómo reacciona nuestro sistema jurídico ante estas conductas, es necesario revisar las herramientas que incorporó el Código Penal argentino, especialmente a partir de la sanción de la <strong>Ley 26.388</strong>, la cual intentó dotar de tipicidad a conductas que antes quedaban en zonas grises de impunidad.</p>
+<hr>
+<h2>2. Acceso Ilegítimo y Hacking (Artículo 153 bis)</h2>
+<p>El acceso ilegítimo constituye la puerta de entrada a la gran mayoría de los incidentes informáticos graves. En la jerga técnica, el término <em>"hacker"</em> engloba perfiles de gran diversidad, pero desde la perspectiva penal nos interesa la conducta de quien ingresa a un sistema o dato informático sin autorización o excediendo la que legítimamente posee. Esta figura fue incorporada al Código Penal mediante el <strong>artículo 153 bis</strong>, buscando proteger la confidencialidad y la seguridad de los sistemas informáticos de acceso restringido.</p>
+<h3>2.1. Elementos Objetivos y Subjetivos</h3>
+<p>Para que se configure este delito, la ley exige la presencia de ciertos elementos fundamentales:</p>
+<ul>
+<li><strong>Sujeto Activo:</strong> Puede ser cualquier persona, desde un ciberdelincuente externo hasta un empleado infiel de una empresa que utiliza sus credenciales para espiar o extraer información a la que no debería acceder (<em>insider</em>).</li>
+<li><strong>Objeto Material:</strong> Un sistema o un dato informático, bajo un requisito fundamental: debe tratarse de un entorno de <strong>acceso restringido</strong>. Esto significa que el sistema tiene que contar con barreras lógicas, contraseñas, cifrado o avisos que evidencien la voluntad del titular de mantener la privacidad de esa información.</li>
+</ul>
+<h3>2.2. Naturaleza Dogmática y Consumación</h3>
+<p>Desde el punto de vista dogmático, se trata de un <strong>delito de peligro abstracto o de mera actividad</strong>, ya que se consuma por el solo hecho de ingresar de forma no autorizada, sin que sea strictly necesario que el intruso robe datos o cause un perjuicio material adicional.</p>
+<p>No obstante, en la práctica judicial es muy frecuente que este acceso ilegal sea el paso previo para cometer delitos más graves, como el robo de información confidencial, la extorsión o el sabotaje de los sistemas de la víctima.</p>
+<hr>
+<h2>3. Daño Informático y Sabotaje (Artículo 183)</h2>
+<h3>3.1. Equiparación de Soporte Lógico y Datos a Cosas</h3>
+<p>El daño informático representa una evolución lógica respecto al concepto tradicional de daño sobre las cosas materiales que contemplaba históricamente nuestro Código Penal. Antes de la reforma legal, destruir un archivo digital o borrar una base de datos presentaba serias discusiones doctrinales sobre si los datos constituían o no una "cosa" susceptible de daño material. Con la <strong>Ley 26.388</strong>, esta discusión quedó zanjada al equiparar expresamente la afectación de soportes lógicos, programas y datos al régimen general del delito de daño (<strong>Art. 183 del Código Penal</strong>).</p>
+<h3>3.2. Manifestaciones Prácticas y Aspecto Subjetivo</h3>
+<p>El sabotaje informático y el daño digital se manifiestan de múltiples maneras en la vida real:</p>
+<ul>
+<li>La eliminación intencional de registros contables en una organización o PyME.</li>
+<li>La modificación subrepticia de código fuente en el software de una empresa.</li>
+<li>La inutilización deliberada de un servidor para entorpecer la operatoria de una institución.</li>
+</ul>
+<p>El bien jurídico protegido en estos casos es la <strong>integridad y la disponibilidad</strong> de la información y de los sistemas, garantizando que los usuarios legítimos puedan utilizarlos sin interferencias maliciosas.</p>
+<p>Para que exista este delito, el Código Penal exige dolo (la intención deliberada de destruir, inutilizar, desaparecer o deteriorar datos, documentos, programas o sistemas informáticos ajenos). La tentativa es perfectamente punible desde el momento en que el autor ejecuta acciones idóneas dirigidas a corromper el sistema.</p>
+<hr>
+<h2>4. Malware, Ransomware y Ataques DDoS</h2>
+<p>Dentro de las modalidades más sofisticadas y dañinas que afectan hoy en día tanto a organismos estatales como a empresas privadas, encontramos el uso masivo de software malicioso. El término <em>malware</em> abarca a una gran variedad de programas diseñados para infiltrarse en los equipos sin el consentimiento del usuario. Si bien la mera creación de estas herramientas puede encontrarse en una zona gris legal, su propagación e instalación en sistemas ajenos encuadra claramente en figuras como el acceso ilegítimo y el daño informático.</p>
+<h3>4.1. Ransomware y Concurso de Delitos</h3>
+<p>Una de las variantes más peligrosas en los últimos años es el <strong>ransomware</strong>. Este programa malicioso cifra de forma irreversible los archivos de la víctima y bloquea el acceso al sistema operativo, exigiendo el pago de un rescate económico —por lo general en criptomonedas— a cambio de la clave de descifrado.</p>
+<p>Desde una perspectiva jurídica, el <em>ransomware</em> configura habitualmente un <strong>concurso de delitos</strong>:</p>
+<p>1.  Comienza con un <strong>acceso ilegítimo</strong> (Art. 153 bis) para infiltrar el sistema.</p>
+<p>2.  Continúa con un <strong>daño informático</strong> (Art. 183) al inutilizar la disponibilidad de los datos mediante el cifrado.</p>
+<p>3.  Culmina en una <strong>extorsión</strong>, ya que se coacciona a la víctima mediante la amenaza de perder permanentemente su información comercial o personal.</p>
+<h3>4.2. Ataques de Denegación de Servicio (DDoS)</h3>
+<p>Por otro lado, los ataques de denegación de servicio distribuido (<strong>DDoS</strong>) representan otra forma grave de sabotaje tecnológico. En estos casos, los atacantes no buscan robar información ni alterar datos de manera permanente, sino saturar los recursos de un servidor o plataforma web mediante un flujo masivo de peticiones simultáneas provenientes de redes de computadoras infectadas (<em>botnets</em>).</p>
+<p>El objetivo es colapsar la infraestructura y dejar el servicio fuera de línea, afectando portales bancarios, sitios de noticias o sistemas de comercio electrónico. Desde el punto de vista legal, la interrupción deliberada de los servicios informáticos y el perjuicio operativo consecuentemente se analizan bajo las normas del daño informático y las figuras relativas a la interrupción de servicios públicos o comunicaciones, según el impacto social del ataque.</p>
+<hr>
+<h2>5. Conclusiones del Módulo</h2>
+<p>El análisis de los delitos informáticos vinculados al acceso ilegítimo, el sabotaje y el uso de <em>malware</em> demuestra que la criminalidad tecnológica avanza a un ritmo mucho más veloz que las reformas legislativas. Si bien los artículos 153 bis y 183 del Código Penal argentino ofrecen un marco normativo básico para sancionar estas conductas, la complejidad técnica de fenómenos como el <em>ransomware</em> y los ataques DDoS exige a los operadores judiciales, fiscales y peritos una sólida formación técnica.</p>
+<p>La correcta preservación de la evidencia digital y la adecuada subsunción legal de estos hechos son claves para evitar la impunidad y garantizar la seguridad jurídica en los entornos virtuales que utilizamos todos los días.</p>
+<hr>
+<div class="page-break"></div>
+<h1>Módulo 8: Casos Jurisprudenciales en Argentina</h1>
+<p><strong>Responsable:</strong> BUDANI, Iara Nerea (<span class="inline-code">iarubudani@gmail.com</span>)</p>
+<p><strong>Estado:</strong> Completo / Revisado</p>
+<hr>
+<h2>1. Criterios para la Selección de Fallos</h2>
+<h3>1.1. Contexto y Objetivos del Análisis Jurisprudencial</h3>
+<p>Los Casos Jurisprudenciales son precedentes reales resueltos por los tribunales de justicia cuyas decisiones sirven como guía para interpretar y aplicar la ley ante situaciones complejas o emergentes.</p>
+<p>Tras la sanción de la <strong>Ley 26.388 en 2008</strong>, el Código Penal Argentino incorporó expresamente conductas como el fraude informático, el daño a datos y la violación de sistemas. Para la selección de estos fallos se priorizaron aquellos que abordaron los principales desafíos doctrinarios y procesales:</p>
+<ul>
+<li><strong>Interpretación del daño a bienes intangibles</strong> (información/datos).</li>
+<li><strong>Límites de la analogía penal</strong> frente al software y figuras tradicionales como la retención indebida.</li>
+<li><strong>Preservación y valoración de la prueba digital</strong> (sujeta a alteración, duplicación y análisis de metadatos).</li>
+<li><strong>Cuestiones de competencia jurisdiccional</strong> en delitos cometidos mediante plataformas o redes digitales.</li>
+</ul>
+<h3>1.2. Marco Normativo Relacionado (Ley 26.388)</h3>
+<p>Las normas del Código Penal articuladas con la Ley 26.388 y analizadas en la jurisprudencia comprenden:</p>
+<table border="1" cellspacing="0" cellpadding="6">
+<thead><tr><th>Tema</th><th>Norma Relacionada (Código Penal)</th></tr></thead><tbody>
+<tr><td>Acceso ilegítimo a sistemas/datos</td><td>Art. 153 bis CP</td></tr>
+<tr><td>Violación de comunicaciones electrónicas</td><td>Art. 153 CP</td></tr>
+<tr><td>Defraudación informática</td><td>Art. 173 inc. 16 CP</td></tr>
+<tr><td>Daño informático</td><td>Art. 183 CP</td></tr>
+<tr><td>Documentos electrónicos</td><td>Art. 77 CP</td></tr>
+<tr><td>Interrupción de comunicaciones</td><td>Art. 197 CP</td></tr>
+<tr><td>Registros/documentos electrónicos públicos</td><td>Art. 255 CP</td></tr>
+<tr><td>Delitos vinculados con material sexual de menores</td><td>Art. 128 CP</td></tr>
+</tbody></table>
+<hr>
+<h2>2. Análisis de Casos Jurisprudenciales Emblemáticos</h2>
+<h3>2.1. Caso 1: “N., C. A. s/procesamiento” (Daño Informático)</h3>
+<ul>
+<li><strong>Tribunal y Fecha:</strong> Cámara Nacional de Apelaciones en lo Criminal y Correccional de la Capital Federal, Sala I. Causa N.º 38.137. Fecha: 5 de mayo de 2010.</li>
+<li><strong>Hechos:</strong> El imputado, exempleado de una empresa, ingresó de manera no autorizada y borró/alteró información del sistema informático de la firma. Los hechos ocurrieron con anterioridad a la sanción formal de la Ley 26.388.</li>
+<li><strong>Calificación Legal y Controversia:</strong> Se debatió si el borrado de información digital podía encuadrarse en el delito tradicional de daño (<strong>Art. 183 del Código Penal</strong>). La defensa sostenía que los datos e información digital no constituían una "cosa" física susceptible de daño en el sentido tradicional del derecho penal.</li>
+<li><strong>Resolución y Doctrina Sentada:</strong> La Sala I confirmó el procesamiento. El tribunal concluyó que la información almacenada en un soporte informático posee existencia física (ocupa un espacio en la memoria/disco que puede ser alterado, detectado o destruido mediante impulsos electromagnéticos). En consecuencia, determinó que el borrado de datos quedaba comprendido en el primer párrafo del Art. 183 CP, sentando un precedente clave sobre la protección de la información como bien jurídico susceptible de daño.</li>
+</ul>
+<h3>2.2. Caso 2: “Oliva, Agustín s/recurso de casación” (Software y Retención Indebida)</h3>
+<ul>
+<li><strong>Tribunal y Fecha:</strong> Cámara Federal de Casación Penal, Sala III. Causa N.º 43.128/2012 (Reg. N.º 1366/15). Fecha: 20 de agosto de 2015.</li>
+<li><strong>Hechos:</strong> Se imputó a un desarrollador el delito de retención indebida (<strong>Art. 173 inc. 2.º CP</strong>) por no entregar el código fuente y programas informáticos desarrollados en el marco de una relación laboral/contractual.</li>
+<li><strong>Calificación Legal y Controversia:</strong> El punto central consistía en determinar si un programa informático o código fuente puede ser calificado jurídicamente como una “cosa mueble entregada con obligación de restituir”.</li>
+<li><strong>Resolución y Doctrina Sentada:</strong> La Sala III rechazó el recurso de casación y confirmó el sobreseimiento del imputado. El tribunal estableció que el software y la propiedad intelectual no encuadran en el concepto de "cosa mueble" en los términos del Art. 173 inc. 2 CP. Al no existir entrega de un bien físico tangible destinado a ser devuelto, la conducta resultaba atípica para esa figura penal tradicional. Este fallo delimitó con claridad los límites entre conflictos de propiedad intelectual / incumplimientos contractuales y los verdaderos delitos informáticos.</li>
+</ul>
+<h3>2.3. Caso 3: “Nápoli, Maximiliano Sebastián s/incidente de competencia” (Competencia en Ciberestafas)</h3>
+<ul>
+<li><strong>Tribunal y Fecha:</strong> Corte Suprema de Justicia de la Nación (CSJN). Expediente CFP 1319/2020/1/CS1. Fecha: 6 de mayo de 2021.</li>
+<li><strong>Hechos:</strong> Investigación por defraudación mediante manipulación informática (<strong>Art. 173 inc. 16 CP</strong>, incorporado por la Ley 26.388), vinculada a transferencias ilegítimas de fondos entre cuentas bancarias.</li>
+<li><strong>Calificación Legal y Controversia:</strong> Se generó un conflicto negativo de competencia entre la Justicia Nacional en lo Criminal y Correccional y la Justicia Penal, Contravencional y de Faltas de la Ciudad Autónoma de Buenos Aires (CABA) para determinar cuál jurisdicción debía investigar el hecho.</li>
+<li><strong>Resolución y Doctrina Sentada:</strong> La CSJN resolvió que la competencia corresponde a la <strong>Justicia Nacional en lo Criminal y Correccional</strong>. El tribunal señaló que la figura de defraudación informática del Art. 173 inc. 16 CP no fue expresamente transferida a la CABA mediante los convenios de transferencia de competencias penales. El fallo sentó un criterio unificado sobre la jurisdicción aplicable a las ciberestafas y maniobras de manipulaciones de datos bancarios.</li>
+</ul>
+<hr>
+<h2>3. Síntesis Comparativa de Fallos</h2>
+<h3>3.1. Cuadro Comparativo de Doctrina y Precedentes</h3>
+<table border="1" cellspacing="0" cellpadding="6">
+<thead><tr><th>Caso</th><th>Problema Central</th><th>Norma Aplicada</th><th>Aporte Jurisprudencial</th></tr></thead><tbody>
+<tr><td><strong>N., C. A.</strong></td><td>Destrucción de datos informáticos</td><td>Art. 183 CP</td><td>Interpretó los datos digitales como bien susceptible de daño material.</td></tr>
+<tr><td><strong>Oliva, Agustín</strong></td><td>Retención de software y código fuente</td><td>Art. 173 inc. 2 CP</td><td>Marcó límites al principio de legalidad: el software no es "cosa mueble" para retención indebida.</td></tr>
+<tr><td><strong>Nápoli, M. S.</strong></td><td>Manipulación informática y competencia</td><td>Art. 173 inc. 16 CP</td><td>Asignó la competencia de las ciberestafas a la Justicia Nacional.</td></tr>
+</tbody></table>
+<hr>
+<div class="page-break"></div>
+<h1>Módulo 9: Evidencia Digital, Desafíos y Conclusiones</h1>
+<p><strong>Responsable:</strong> ALBA, Valentín Sebastián (<span class="inline-code">valentinalba0809@gmail.com</span>)</p>
+<p><strong>Estado:</strong> Completo / Revisado</p>
+<hr>
+<h2>1. La Evidencia Digital e Informática Forense</h2>
+<h3>1.1. Concepto de Evidencia Digital y Volatilidad de los Datos</h3>
+<p>La evidencia digital, también conocida como prueba informática, se define como cualquier información o dato con valor probatorio que es generado, almacenado o transmitido en formato binario. A diferencia de la prueba física tradicional (como un documento en papel o un arma), la evidencia digital posee una característica inherente que representa su mayor desafío jurídico: la <strong>volatilidad</strong>.</p>
+<p>En los entornos informáticos, los datos (especialmente aquellos alojados en la memoria RAM, los registros de caché o las conexiones de red en curso) pueden ser alterados, sobrescritos, encriptados o destruidos en fracciones de segundo. Esta fragilidad extrema significa que una mala praxis durante un allanamiento o secuestro de dispositivos puede contaminar la prueba, provocando su nulidad absoluta en el proceso penal. Por lo tanto, el sistema judicial requiere que la manipulación de estos datos no altere el estado original en el que fueron hallados.</p>
+<h3>1.2. Principios de Preservación y Adquisición Forense (ISO/IEC 27037)</h3>
+<p>Para que un tribunal acepte la validez de un dato informático, los peritos deben aplicar metodologías científicas rigurosas. En este contexto, la norma internacional <strong>ISO/IEC 27037</strong> proporciona las directrices estandarizadas para la identificación, recolección, adquisición y preservación de la evidencia digital, dotando de seguridad jurídica al procedimiento técnico.</p>
+<p>Esta norma se estructura sobre principios fundamentales para garantizar la integridad de la prueba:</p>
+<ul>
+<li><strong>Identificación:</strong> Consiste en reconocer y documentar qué elementos físicos (dispositivos de almacenamiento, teléfonos, servidores) o lógicos (cuentas en la nube, registros de logs) contienen evidencia potencial vinculada al delito investigado.</li>
+<li><strong>Adquisición:</strong> Es el proceso de extraer la información minimizando cualquier alteración del sistema. Para asegurar que la prueba sea idéntica al original, se utilizan herramientas de bloqueo de escritura (<em>write-blockers</em>) y se realizan copias "bit a bit" (clonación forense). Si el sistema está encendido, se debe respetar el "Orden de Volatilidad", capturando primero los datos que corren mayor riesgo de perderse.</li>
+<li><strong>Preservación:</strong> Su objetivo es garantizar que la evidencia adquirida se mantenga inalterable desde su recolección hasta su presentación en juicio. El estándar técnico y legal para demostrar esta inalterabilidad es el cálculo de algoritmos de <strong>función hash</strong> (como MD5 o SHA-256), que actúan como una huella digital única e irrepetible del archivo o disco clonado. Cualquier modificación posterior, por mínima que sea, cambiará el valor hash, evidenciando la manipulación de la prueba.</li>
+</ul>
+<hr>
+<h2>2. Cadena de Custodia y Validez en Juicio</h2>
+<h3>2.1. Procedimiento para Garantizar la Inalterabilidad de la Prueba</h3>
+<p>La cadena de custodia es el procedimiento documentado, ininterrumpido y trazable que se aplica a los elementos probatorios desde el momento de su hallazgo o secuestro hasta su disposición final. En el ámbito de los delitos informáticos, este procedimiento es vital para garantizar la inalterabilidad de la prueba y certificar que la evidencia presentada en el tribunal es exactamente la misma que se extrajo de la escena del crimen, física o virtual.</p>
+<p>El resguardo de la evidencia digital posee una doble dimensión normativa y técnica:</p>
+<ul>
+<li><strong>Custodia física:</strong> Implica el correcto embalaje, sellado y etiquetado del hardware secuestrado (discos rígidos, teléfonos celulares, pendrives). Se deben utilizar bolsas antiestáticas o "jaulas de Faraday" (para evitar el borrado remoto de datos en dispositivos móviles) y las actas de secuestro deben estar firmadas por testigos hábiles y los funcionarios intervinientes.</li>
+<li><strong>Custodia lógica:</strong> Es el resguardo del contenido digital propiamente dicho. Se materializa mediante el cálculo de la función hash en el momento exacto de la adquisición forense. El valor hash original se asienta en el acta notarial o judicial; al momento de realizar la pericia en el laboratorio, el perito debe recalcular el hash de su copia de trabajo y verificar que coincida de manera idéntica con el del acta. Si los valores difieren, la cadena de custodia lógica se ha roto y la prueba se considera contaminada.</li>
+</ul>
+<h3>2.2. Desafíos de Admisibilidad Probatoria en el Proceso Penal</h3>
+<p>El sistema procesal penal argentino se rige por el principio de libertad probatoria, lo que significa que los delitos pueden probarse por cualquier medio, siempre que su obtención sea lícita y no afecte las garantías constitucionales. Sin embargo, la evidencia digital presenta desafíos singulares para su admisibilidad en juicio:</p>
+<p>1.  <strong>Garantía de intimidad y licitud de la obtención:</strong> La intromisión en un sistema informático, la interceptación de correos electrónicos o la requisa de un dispositivo móvil sin la debida orden judicial previa y fundada constituye una violación a la privacidad. Toda evidencia digital obtenida de manera ilegal es pasible de exclusión bajo la doctrina del <em>"fruto del árbol envenenado"</em>, anulando cualquier prueba derivada de ella.</p>
+<p>2.  <strong>Autenticidad y repudio:</strong> A diferencia de un documento con firma hológrafa, la evidencia digital es fácilmente manipulable. La simple presentación de capturas de pantalla (<em>screenshots</em>) o correos impresos suele ser insuficiente si no está respaldada por metadatos o por la intervención de un perito informático. La defensa suele atacar la prueba alegando que los registros pudieron ser alterados, fabricados o que el titular de la cuenta no fue quien originó la comunicación (suplantación de identidad).</p>
+<p>3.  <strong>Dependencia de terceros y proveedores de servicios:</strong> Gran parte de la evidencia actual (registros de WhatsApp, correos en Gmail, alojamientos en la nube) no reside en dispositivos físicos en poder del imputado, sino en servidores de empresas tecnológicas internacionales. La admisibilidad de estos registros requiere transitar por complejos procesos de requerimientos judiciales a plataformas que, en ocasiones, aplican políticas de retención de datos sumamente breves, provocando que la evidencia desaparezca antes de ser formalmente judicializada.</p>
+<hr>
+<h2>3. Vinculación e Integración Temática (Apartado Obligatorio)</h2>
+<p>El estudio de los delitos informáticos no puede concebirse como una rama aislada del derecho penal, sino que atraviesa de manera transversal el ordenamiento jurídico general. En este sentido, la irrupción de las nuevas tecnologías y la cibercriminalidad generan una profunda interacción con otras unidades del programa de estudio, destacándose especialmente su vinculación con el <strong>Derecho Constitucional</strong> y las normativas de <strong>Propiedad Intelectual y Contratos</strong>.</p>
+<h3>3.1. Conexión 1 — Unidad 1 (Derecho Constitucional): Impacto en Derechos y Garantías</h3>
+<p>El fenómeno de la delincuencia informática pone constantemente en tensión los preceptos fundamentales de la Constitución Nacional (CN), obligando a los operadores jurídicos a reinterpretar las garantías históricas en el entorno digital:</p>
+<ul>
+<li><strong>Art. 18 CN (Principio de Legalidad y Debido Proceso):</strong> La máxima <em>"nullum crimen, nulla poena sine praevia lege"</em> fue el motor que obligó a la sanción de la Ley 26.388. Antes de esta reforma, los jueces se encontraban ante el vacío legal de no poder condenar ciertas conductas digitales porque la analogía está prohibida en el derecho penal (por ejemplo, el "daño" exigía la destrucción de una cosa física, no de un software). Asimismo, el debido proceso rige la obtención de evidencia digital: cualquier injerencia del Estado en dispositivos tecnológicos sin orden judicial vulnera la garantía de defensa en juicio.</li>
+<li><strong>Art. 19 CN (Intimidad y Privacidad):</strong> El principio de reserva consagra que las acciones privadas están exentas de la autoridad de los magistrados. En la actualidad, el espectro de privacidad más sensible de un individuo reside en su correo electrónico, sus redes sociales y su teléfono celular. Delitos como el acceso ilegítimo (<em>hacking</em>), el ciberacoso o la interceptación de comunicaciones vulneran directamente el núcleo de este artículo, por lo que la ley penal busca proteger la expectativa de privacidad que los ciudadanos tienen sobre su identidad y sus datos digitales.</li>
+<li><strong>Art. 14 CN (Libertad de Expresión):</strong> La persecución del ciberdelito requiere encontrar un delicado equilibrio frente al derecho a publicar las ideas sin censura previa. Las medidas judiciales orientadas a bloquear sitios web, dar de baja perfiles o filtrar contenidos (por ejemplo, en casos de injurias o apología del delito en redes) rozan peligrosamente la censura. El desafío constitucional radica en reprimir el delito informático sin coartar la libertad de expresión y el libre flujo de información en Internet.</li>
+</ul>
+<h3>3.2. Conexión 2 — Propiedad Intelectual y Contratos: Impacto Civil y Comercial del Ciberdelito</h3>
+<p>El accionar delictivo en el ciberespacio excede la sanción penal, proyectando consecuencias directas sobre el derecho privado y comercial de las empresas tecnológicas:</p>
+<p>1.  <strong>Propiedad Intelectual:</strong> En Argentina el software es protegido como una obra literaria (<strong>Ley 11.723</strong>). Cuando ocurre un delito de daño o sabotaje informático (Art. 183 CP), como la introducción de un código malicioso (<em>malware</em>) que corrompe una base de datos o el código fuente de un programa, el sujeto pasivo no solo sufre un menoscabo penal, sino una afectación directa a sus derechos de autor y a la explotación comercial de su propiedad intelectual.</p>
+<p>2.  <strong>Derecho Contractual y Responsabilidad Civil:</strong> La provisión de servicios IT (alojamiento en la nube, servidores, mantenimiento) se rige por contratos que incluyen Acuerdos de Nivel de Servicio (SLA) y cláusulas de confidencialidad. Si una empresa proveedora es víctima de un delito informático (como un ataque DDoS o un <em>ransomware</em>), la caída de sus sistemas configura automáticamente un incumplimiento contractual frente a sus clientes. De esta manera, el delito informático actúa como el elemento desencadenante de una compleja red de responsabilidades civiles, obligando a indemnizar daños y perjuicios derivados de la vulneración del software propietario y la pérdida del servicio.</p>
+<hr>
+<h2>4. Desafíos Futuros y Transnacionalidad</h2>
+<h3>4.1. Jurisdicción y Extraterritorialidad del Ciberdelito</h3>
+<p>El principal paradigma que quiebra el ciberdelito es el concepto tradicional de frontera y territorialidad. En el derecho penal clásico, la jurisdicción suele determinarse por el lugar físico donde se comete el hecho (Art. 1 del Código Penal Argentino). Sin embargo, la arquitectura de Internet permite que un ataque sea ejecutado desde un país, utilizando servidores intermediarios (<em>botnets</em>) ubicados en múltiples naciones, para finalmente vulnerar el bien jurídico de una víctima residente en la Argentina.</p>
+<p>Esta transnacionalidad inherente genera enormes fricciones procesales:</p>
+<ul>
+<li><strong>Conflictos de competencia:</strong> Dificultad para establecer si debe investigar el juez del país del atacante, el del lugar donde se alojan los datos o el del domicilio de la víctima.</li>
+<li><strong>Cooperación internacional:</strong> La lentitud de los exhortos diplomáticos tradicionales es incompatible con la volatilidad de la evidencia digital. Si bien instrumentos como el <strong>Convenio de Budapest</strong> (al cual Argentina está adherida) buscan agilizar la asistencia legal mutua y la preservación rápida de datos informáticos en el extranjero, la disparidad de legislaciones y la falta de tratados de extradición dificultan la persecución efectiva del delincuente.</li>
+</ul>
+<h3>4.2. Inteligencia Artificial y Nuevos Tipos Delictivos Emergentes</h3>
+<p>La irrupción de la Inteligencia Artificial (IA) generativa plantea el próximo gran desafío legislativo. Las herramientas automatizadas están abaratando los costos de la cibercriminalidad y perfeccionando la ejecución de los delitos.</p>
+<p>Entre los nuevos horizontes delictivos impulsados por la IA se destacan:</p>
+<ul>
+<li><strong>Deepfakes y biometría sintética:</strong> La capacidad de clonar voces humanas o generar videos hiperrealistas abre la puerta a nuevas modalidades de extorsión, suplantación de identidad avanzada (fraudes bancarios donde se burla el reconocimiento facial) y generación de material de abuso sexual infantil (MASI) sintético, dificultando la pericia para distinguir lo real de lo artificial.</li>
+<li><strong>Phishing e Ingeniería Social automatizada:</strong> Los modelos de lenguaje natural permiten a los ciberdelincuentes generar correos electrónicos y mensajes de fraude con una gramática perfecta, personalizados en masa y adaptados al contexto de cada víctima.</li>
+<li><strong>Malware inteligente:</strong> Desarrollo de códigos maliciosos capaces de mutar autónomamente y evadir los sistemas de detección tradicionales (antivirus) mediante el aprendizaje automático (<em>Machine Learning</em>).</li>
+</ul>
+<p>El desafío futuro para el legislador ya no será únicamente tipificar nuevas conductas, sino dotar a las fuerzas de seguridad y al Poder Judicial de las herramientas tecnológicas y las capacidades técnicas necesarias para investigar delitos perpetrados por máquinas autónomas en nombre de operadores humanos.</p>
+<hr>
+<h2>5. Conclusiones Generales del Trabajo</h2>
+<p>Tras el desarrollo de este Trabajo Práctico de Investigación, el <strong>Grupo 141-A</strong> ha arribado a las siguientes conclusiones fundamentales sobre el tratamiento de los delitos informáticos en Argentina:</p>
+<p>1.  <strong>Cambio de Paradigma:</strong> Es innegable que la tecnología ha transformado de manera irreversible el paradigma del derecho penal. El sistema informático ya no es solo una herramienta, sino que se ha consolidado como un medio de comisión para potenciar delitos tradicionales y como un nuevo bien jurídico protegido en sí mismo (ante sabotajes o intrusiones).</p>
+<p>2.  <strong>Avance Normativo y Cuello de Botella Probatorio:</strong> La sanción de la Ley 26.388 marcó un hito fundamental al sacar al ordenamiento jurídico argentino de la obsolescencia y adaptarlo a los estándares del Convenio de Budapest. No obstante, el verdadero "cuello de botella" del sistema penal radica en la capacidad probatoria: la volatilidad de la evidencia digital, las exigencias de la cadena de custodia y los conflictos jurisdiccionales transnacionales provocan que muchas investigaciones naufraguen antes de llegar a juicio.</p>
+<p>3.  <strong>Desafío Dinámico:</strong> El surgimiento de tecnologías disruptivas, especialmente la Inteligencia Artificial, advierte que la legislación no puede ser estática. El derecho informático está condenado a perseguir a la innovación tecnológica. Por lo tanto, el éxito futuro dependerá menos de la constante creación de nuevas leyes y más de la capacitación técnica permanente de los operadores judiciales (peritos, fiscales y jueces) y de la consolidación de canales de cooperación internacional ágiles y efectivos.</p>
+<hr>
+<div class="page-break"></div>
+<h2>BIBLIOGRAFÍA GENERAL UNIFICADA</h2>
+<h3>Normativa y Leyes Nacionales</h3>
+<ul>
+<li><strong>Constitución de la Nación Argentina</strong> — Artículos 14, 18 y 19.</li>
+<li><strong>Código Penal de la Nación Argentina</strong> — Ley N.° 11.179 (t.o. 1984) y modificatorias (Arts. 77, 128, 131, 153, 153 bis, 155, 157 bis, 172, 173 inc. 16, 183, 184 y 255).</li>
+<li><strong>Ley N.° 26.388 (2008)</strong> — Modificación del Código Penal sobre Delitos Informáticos.</li>
+<li><strong>Ley N.° 26.904 (2013)</strong> — Incorporación del delito de Grooming (Art. 131 C.P.).</li>
+<li><strong>Ley N.° 27.590 (2020)</strong> — Ley Mica Ortega (Programa Nacional de Prevención del Grooming).</li>
+<li><strong>Ley N.° 26.061</strong> — Ley de Protección Integral de los Derechos de Niñas, Niños y Adolescentes.</li>
+<li><strong>Ley N.° 11.723</strong> — Régimen Legal de la Propiedad Intelectual (Protección del Software).</li>
+<li><strong>Ley N.° 24.240</strong> — Ley de Defensa del Consumidor (Art. 40 - Responsabilidad Objetiva).</li>
+<li><strong>Ley N.° 27.411 (2017)</strong> — Aprobación del Convenio sobre Ciberdelincuencia de Budapest.</li>
+</ul>
+<h3>Normativa Financiera e Internacional</h3>
+<ul>
+<li><strong>Banco Central de la República Argentina (BCRA)</strong> — Comunicaciones "A" 7319 y "A" 7326 (Seguridad en Canales Electrónicos y DEBIN).</li>
+<li><strong>Consejo de Europa (2001)</strong> — <em>Convenio sobre Ciberdelincuencia (Convenio de Budapest)</em> y Segundo Protocolo Adicional.</li>
+<li><strong>Norma Internacional ISO/IEC 27037:2012</strong> — <em>Directrices para la identificación, recolección, adquisición y preservación de evidencia digital</em>.</li>
+<li><strong>Organización de las Naciones Unidas (UNODC)</strong> — <em>Cybercrime Module 2: General types of cybercrime</em> (SHERLOC).</li>
+</ul>
+<h3>Doctrina Jurídica y Tratados</h3>
+<ul>
+<li><strong>Arocena, G. A. (2012).</strong> <em>La regulación de los delitos informáticos en el Código Penal argentino: Introducción a la Ley Nacional núm. 26.388.</em> Boletín Mexicano de Derecho Comparado, 45(135), 945-988.</li>
+<li><strong>Palazzi, P. A. (2016).</strong> <em>Los delitos informáticos en el Código Penal: Análisis de la Ley 26.388</em> (3.ª ed.). Abeledo-Perrot.</li>
+<li><strong>UFECI & CERT.ar</strong> — Informes técnicos y estadísticas sobre ciberdelincuencia e ingeniería social en Argentina.</li>
+</ul>
+<h3>Precedentes Jurisprudenciales</h3>
+<ul>
+<li><strong>CSJN:</strong> Causa <em>“Nápoli, Maximiliano Sebastián s/incidente de competencia”</em> (Expte. CFP 1319/2020/1/CS1 - 06/05/2021).</li>
+<li><strong>Cámara Federal de Casación Penal, Sala III:</strong> Causa <em>“Oliva, Agustín s/recurso de casación”</em> (Reg. N.° 1366/15 - 20/08/2015).</li>
+<li><strong>Cámara Nacional de Apelaciones en lo Criminal y Correccional, Sala I:</strong> Causa <em>“N., C. A. s/procesamiento”</em> (Causa N.° 38.137 - 05/05/2010).</li>
+<li><strong>Cámara Nacional de Apelaciones en lo Criminal y Correccional, Sala VI:</strong> Causa <em>“Lanata, Jorge s/desestimación”</em> (04/03/1999).</li>
+</ul>
+</body>
+</html>

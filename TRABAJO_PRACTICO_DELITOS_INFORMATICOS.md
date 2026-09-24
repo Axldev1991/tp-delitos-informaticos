@@ -89,7 +89,6 @@ Por último, se examinan los principios científicos de la informática forense 
 # Módulo 1: Concepto y Partes del Delito Informático
 
 **Responsable:** ARREDONDO, Agustín Fernando (`agustinarredondo4@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 ## 1. Definición y Concepto
@@ -167,7 +166,6 @@ Sin embargo, la confidencialidad, integridad y disponibilidad no deben entenders
 # Módulo 2: Clasificación y Tipos de Delitos Informáticos
 
 **Responsable:** ALVAREZ TAIBO, Gabriel Angel (`alvareztaibo@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 ## 1. Clasificación según la ONU / UNODC
@@ -284,7 +282,6 @@ Council of Europe. (2001). *Explanatory Report to the Convention on Cybercrime*.
 # Módulo 3: Marco Legal en Argentina
 
 **Responsable:** BUENAVENTURA, Martina Pilar (`martinabuenaventura2024@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 ## 1. Evolución Histórica de la Regulación Penal
@@ -350,7 +347,6 @@ En mayo de 2022 se aprobó el texto del **Segundo Protocolo Adicional del Conven
 # Módulo 4: Ley 26.388 — Análisis Normativo
 
 **Responsable:** ARES MUNIZ, Thiago (`aresthiago911@gmail.com`)  
-**Estado:** Completo / Revisado  
 
 ---
 ## 1. Objeto y Alcance de la Ley 26.388
@@ -433,7 +429,6 @@ Su principal objetivo fue actualizar la legislación frente a delitos cometidos 
 # Módulo 5: Delitos en Particular I — Grooming y Ciberacoso
 
 **Responsable:** ALLENDE, Evelyn Astrid (`evelynastridallende@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 ## 1. Grooming (Ley 26.904)
@@ -499,7 +494,6 @@ Frente a la sospecha o comisión de un hecho de grooming, es crítico **preserva
 # Módulo 6: Delitos en Particular II — Phishing y Estafas Digitales
 
 **Responsable:** CASTELLANO GUTIERREZ, Axel (`castellanoaxl@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 ## 1. Phishing e Ingeniería Social
@@ -558,7 +552,6 @@ En la jurisprudencia argentina actual, la relación entre el usuario y la entida
 # Módulo 7: Delitos en Particular III — Sabotaje, Malware y Acceso Ilegítimo
 
 **Responsable:** BLANCO, Agustín Tobías (`agustinblanco2006@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 ## 1. Introducción y Contexto Tecnológico
@@ -635,7 +628,6 @@ La correcta preservación de la evidencia digital y la adecuada subsunción lega
 # Módulo 8: Casos Jurisprudenciales en Argentina
 
 **Responsable:** BUDANI, Iara Nerea (`iarubudani@gmail.com`)  
-**Estado:** Completo / Revisado  
 
 ---
 ## 1. Criterios para la Selección de Fallos
@@ -704,7 +696,6 @@ Las normas del Código Penal articuladas con la Ley 26.388 y analizadas en la ju
 # Módulo 9: Evidencia Digital, Desafíos y Conclusiones
 
 **Responsable:** ALBA, Valentín Sebastián (`valentinalba0809@gmail.com`)  
-**Estado:** Completo / Revisado  
 
 ---
 ## 1. La Evidencia Digital e Informática Forense

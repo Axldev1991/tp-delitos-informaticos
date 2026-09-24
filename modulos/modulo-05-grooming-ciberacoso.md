@@ -1,7 +1,6 @@
 # Módulo 5: Delitos en Particular I — Grooming y Ciberacoso
 
 **Responsable:** ALLENDE, Evelyn Astrid (`evelynastridallende@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 

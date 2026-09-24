@@ -1,7 +1,6 @@
 # Módulo 6: Delitos en Particular II — Phishing y Estafas Digitales
 
 **Responsable:** CASTELLANO GUTIERREZ, Axel (`castellanoaxl@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 

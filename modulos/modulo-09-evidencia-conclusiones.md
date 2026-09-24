@@ -1,7 +1,6 @@
 # Módulo 9: Evidencia Digital, Desafíos y Conclusiones
 
 **Responsable:** ALBA, Valentín Sebastián (`valentinalba0809@gmail.com`)  
-**Estado:** Completo / Revisado  
 
 ---
 

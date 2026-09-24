@@ -1,7 +1,6 @@
 # Módulo 1: Concepto y Partes del Delito Informático
 
 **Responsable:** ARREDONDO, Agustín Fernando (`agustinarredondo4@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 

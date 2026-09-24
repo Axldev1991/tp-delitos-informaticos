@@ -1,7 +1,6 @@
 # Módulo 4: Ley 26.388 — Análisis Normativo
 
 **Responsable:** ARES MUNIZ, Thiago (`aresthiago911@gmail.com`)  
-**Estado:** Completo / Revisado  
 
 ---
 

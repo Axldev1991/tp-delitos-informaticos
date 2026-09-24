@@ -1,7 +1,6 @@
 # Módulo 2: Clasificación y Tipos de Delitos Informáticos
 
 **Responsable:** ALVAREZ TAIBO, Gabriel Angel (`alvareztaibo@gmail.com`)  
-**Estado:** Completo / En revisión  
 
 ---
 
